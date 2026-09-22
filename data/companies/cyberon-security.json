@@ -1,0 +1,41 @@
+{
+  "id": "cyberon-security",
+  "name": "Cyberon Security",
+  "legal_name": "CYBERON SECURITY AS",
+  "website": "https://www.cyberonsecurity.no",
+  "category": "norwegian",
+  "org_nr": "914235014",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.cyberonsecurity.no",
+  "specialty": "Norwegian-owned security provider for IT partners and mid-sized companies: pentest, SOC and endpoint work.",
+  "capabilities": [
+    "penetration-testing",
+    "soc",
+    "incident-response",
+    "endpoint-security",
+    "email-security",
+    "awareness-training",
+    "identity-access-management"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.cyberonsecurity.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/914235014",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees_as_of": "2026-02-11",
+  "founded": "2014-09-03"
+}

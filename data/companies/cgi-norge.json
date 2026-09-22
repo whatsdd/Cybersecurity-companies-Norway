@@ -1,0 +1,61 @@
+{
+  "id": "cgi-norge",
+  "name": "CGI Norge",
+  "legal_name": "CGI NORGE AS",
+  "website": "https://www.cgi.com/no",
+  "category": "norwegian",
+  "org_nr": "919562390",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "brreg_employees": 352,
+  "brreg_employees_as_of": "2026-09-14",
+  "delivery": "in-house",
+  "delivery_source": "https://www.cgi.com/no",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "IT services group whose security unit covers monitoring, cloud security and OT.",
+  "capabilities": [
+    "soc",
+    "cloud-security",
+    "ot-ics-security",
+    "penetration-testing",
+    "security-audit",
+    "identity-access-management"
+  ],
+  "founded": "1977-01-22",
+  "former_names": [
+    "WM DATA AS",
+    "WM- DATA CONSULTING AS",
+    "WM-DATA AS",
+    "LOGICA NORGE AS"
+  ],
+  "notes": "Registry history: WM DATA AS -> WM-DATA AS -> LOGICA NORGE AS -> CGI NORGE AS.",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919562390",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.cgi.com/no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ]
+}

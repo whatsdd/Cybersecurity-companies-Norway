@@ -1,0 +1,73 @@
+{
+  "id": "norma-cyber",
+  "name": "NORMA Cyber",
+  "legal_name": "NORDIC MARITIME CYBER RESILIENCE CENTRE AS",
+  "website": "https://www.normacyber.no",
+  "category": "norwegian",
+  "org_nr": "925216739",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "security_staff": 15,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor.",
+  "brreg_employees": 15,
+  "brreg_employees_as_of": "2026-08-11",
+  "delivery": "in-house",
+  "delivery_source": "https://www.normacyber.no",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Maritime cyber resilience centre for the Norwegian shipping industry.",
+  "capabilities": [
+    "soc",
+    "incident-response",
+    "threat-intelligence",
+    "penetration-testing",
+    "tabletop-exercises",
+    "security-training",
+    "ot-ics-security",
+    "compliance"
+  ],
+  "founded": "2020-06-10",
+  "former_names": [
+    "ATHOMSTART INVEST 495 AS",
+    "NORWEGIAN MARITIME CYBER RESILIENCE CENTRE AS"
+  ],
+  "notes": "Trading as NORMA Cyber; the registry entity is NORDIC MARITIME CYBER RESILIENCE CENTRE AS (formerly NORWEGIAN MARITIME CYBER RESILIENCE CENTRE AS).",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/925216739",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.normacyber.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    }
+  ]
+}

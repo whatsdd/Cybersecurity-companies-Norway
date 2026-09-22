@@ -1,0 +1,43 @@
+{
+  "id": "miles",
+  "name": "Miles",
+  "legal_name": "MILES AS",
+  "website": "https://www.miles.no",
+  "category": "norwegian",
+  "org_nr": "988340316",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.miles.no",
+  "specialty": "Norwegian consultancy with security advisory, risk and cloud security services.",
+  "capabilities": [
+    "security-audit",
+    "compliance",
+    "risk-management",
+    "cloud-security",
+    "security-architecture"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.miles.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988340316",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 248,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "2005-05-02",
+  "former_names": [
+    "MILES IT AS"
+  ]
+}

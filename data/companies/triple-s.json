@@ -1,0 +1,57 @@
+{
+  "id": "triple-s",
+  "name": "Triple-S",
+  "legal_name": "TRIPLE-S AS",
+  "website": "https://www.triple-s.no",
+  "category": "norwegian",
+  "org_nr": "958971184",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "security_staff": 23,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor.",
+  "brreg_employees": 23,
+  "brreg_employees_as_of": "2026-05-12",
+  "delivery": "in-house",
+  "delivery_source": "https://www.triple-s.no",
+  "specialty": "Small specialist house for industrial control system and OT security.",
+  "capabilities": [
+    "ot-ics-security",
+    "network-security",
+    "risk-management",
+    "security-architecture",
+    "vulnerability-assessment"
+  ],
+  "founded": "1990-11-02",
+  "former_names": [
+    "TRIPLE-S AS INDUSTRY AUTOMATION",
+    "TRIPLE-S AS",
+    "GOODTECH PRODUCTS AS"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.triple-s.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958971184",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    }
+  ]
+}

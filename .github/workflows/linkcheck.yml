@@ -1,0 +1,87 @@
+name: linkcheck
+
+on:
+  schedule:
+    # Weekly: link rot is how a verified directory quietly becomes wrong.
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "data/companies/**"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check every source URL
+        id: check
+        continue-on-error: true
+        run: python3 scripts/linkcheck.py --json linkcheck-report.json
+
+      - name: Upload the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linkcheck-report
+          path: linkcheck-report.json
+
+      - name: File or update an issue when links break
+        if: steps.check.outcome == 'failure' && github.event_name != 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('linkcheck-report.json', 'utf8'));
+            const broken = report.broken || [];
+            if (broken.length === 0) return;
+
+            const rows = broken
+              .map(item => `- ${item.url}: ${item.detail} (used by: ${item.companies.join(', ')})`)
+              .join('\n');
+            const body = [
+              'The weekly source-link check found broken links. A source that no longer resolves means',
+              'the claim it supports can no longer be checked, so the affected rows need re-verifying.',
+              '',
+              rows,
+              '',
+              'Fix by replacing the source with a working one, or by updating or removing the claim.',
+              'Regenerate the generated files afterwards: `python3 scripts/build.py`.',
+              '',
+              `_Run: ${context.runId}, ${new Date().toISOString().slice(0, 10)}_`,
+            ].join('\n');
+
+            // Find any open issue with this exact title rather than relying on
+            // a label that may not exist in a fresh repository.
+            const title = 'Broken source links need re-verifying';
+            const open = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100,
+            });
+            const existing = { data: open.data.filter(issue => issue.title === title) };
+            if (existing.data.length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.data[0].number,
+                body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+              });
+            }

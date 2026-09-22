@@ -1,0 +1,78 @@
+name: Correct or update a company
+description: Fix a wrong figure, a stale entry or a dead source
+title: "Update: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are the most useful thing anyone can send. You may correct facts about your own
+        company, just say so below. You may not use this to remove or disparage a competitor. If you
+        want the company taken off the list entirely, use the removal form instead.
+
+  - type: input
+    id: company
+    attributes:
+      label: Which company?
+      placeholder: Example Security AS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong?
+      options:
+        - Name, legal name or former names
+        - Website link
+        - Norwegian office status or city
+        - Organisation number
+        - In-house security staff figure
+        - The basis of a staff figure (published, attested, estimated)
+        - Employees figure
+        - Delivery model (in-house, mixed, partner-sourced)
+        - Speciality line
+        - Capability tags
+        - Certifications
+        - Verification status or last-verified date
+        - The company no longer offers security work in Norway
+        - The company has been renamed or acquired
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What does the list say now?
+      placeholder: 170 employees, 7 offices
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: What should it say?
+      placeholder: 180 employees as of September 2026
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A URL is what makes a correction mergeable. If nothing is published, say so: that itself is useful information.
+      placeholder: https://example.no/om-oss
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you connected to this company?
+      options:
+        - "No"
+        - "Yes: I work for this company"
+        - "Yes: I am a customer or partner"
+    validations:
+      required: true

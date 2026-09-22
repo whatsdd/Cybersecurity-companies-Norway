@@ -1,0 +1,47 @@
+{
+  "id": "dxc-norge",
+  "name": "DXC Technology Norge",
+  "legal_name": "DXC TECHNOLOGY NORGE AS",
+  "website": "https://dxc.com/no/en",
+  "category": "international",
+  "org_nr": "958958455",
+  "office_in_norway": true,
+  "office_cities": [
+    "Fyllingsdalen"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://dxc.com/no/en",
+  "specialty": "Global services provider with managed security services delivered from Norway.",
+  "capabilities": [
+    "soc",
+    "incident-response",
+    "cloud-security",
+    "identity-access-management",
+    "compliance"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://dxc.com/no/en",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/958958455",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 130,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "1990-10-01",
+  "former_names": [
+    "POLICY MANAGEMENT SYSTEMS NORDEN AS",
+    "POLICY MANAGEMENT SYSTEMS CORPORATION AS",
+    "MYND AS",
+    "CSC SOLUTIONS NORGE AS",
+    "CSC NORGE AS"
+  ]
+}

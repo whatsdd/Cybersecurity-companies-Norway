@@ -1,0 +1,206 @@
+# Cybersecurity and information security companies in Norway
+
+[![validate](https://github.com/{{REPO}}/actions/workflows/validate.yml/badge.svg)](https://github.com/{{REPO}}/actions/workflows/validate.yml)
+[![companies](https://img.shields.io/badge/companies-{{TOTAL}}-blue)](#with-a-physical-office-in-norway)
+[![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-{{WITH_STAFF}}-green)](#with-a-physical-office-in-norway)
+[![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-{{CONFIRMED_STAFF}}-green)](#how-to-read-the-columns)
+[![last updated](https://img.shields.io/badge/last%20updated-{{LAST_UPDATED}}-green)](#how-this-list-is-maintained)
+[![license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE)
+
+> **Started in 2023 by [Ahmad Abdur Rehman](https://ahmad.science/).** The original list covered
+> penetration testing companies in Norway: 39 of them in the
+> [2023 edition](https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/)
+> and past 50 in the
+> [2025 edition](https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/).
+> Three years of maintaining it showed how narrow "pentest" had become as a description of the market,
+> so this edition widens the scope to cybersecurity and information security providers, keeps every
+> company from the pentest list that belongs here, and credits the author who started it.
+>
+> **Hiring, or scoping a security job?** The author is on
+> [LinkedIn](https://www.linkedin.com/in/ahmadscience/).
+
+A crowd-sourced directory of companies that sell cybersecurity and information security work **to
+customers in Norway**: penetration testing, red teaming and security assessment, 24/7 SOC and incident
+response, cloud and OT security, identity and access, forensics, GRC, privacy and security training.
+
+Two things make it useful rather than just long. First, every row says how many **in-house security
+staff** the company has, or that nobody has established it, because a lot of Norwegian security work is
+sold by companies that subcontract it to somebody else. Second, every row carries **capability tags**
+so a buyer can filter for what they actually need instead of reading {{TOTAL}} company blurbs.
+
+The list comes first and the reasoning follows: the ordering rules, the caveats and the AI disclosure
+are further down this page.
+
+## At a glance
+
+| | | 
+|---|---|
+| Companies listed | **{{TOTAL}}** |
+| In-house security staff counts known | **{{WITH_STAFF}}** |
+| Of those, confirmed (published or attested first-hand) | **{{CONFIRMED_STAFF}}** ({{PUBLISHED_STAFF}} published by the company, {{ATTESTED_STAFF}} attested) |
+| Labelled estimates, nobody standing behind them | **{{ESTIMATED_STAFF}}** |
+| Staff count still unknown | **{{UNKNOWN_STAFF}}** |
+| Delivering with their own staff | **{{IN_HOUSE}}** (plus {{MIXED}} mixed) |
+| Sourced through a partner network | **{{PARTNER}}** |
+| With an office in Norway | **{{WITH_OFFICE}}** |
+| With a confirmed Norwegian company registration | **{{WITH_ORG_NR}}** |
+| Publishing their own headcount | **{{WITH_EMPLOYEES}}** |
+| With any headcount figure (theirs or the registry's) | **{{WITH_ANY_HEADCOUNT}}** |
+| Capability tags in use | **{{CAPABILITY_TAGS}}** ({{CAPABILITY_LINKS}} tag links) |
+| Last updated | **{{LAST_UPDATED}}** |
+
+## How to read the columns
+
+- **In-house security staff**: the consultants, testers, analysts and engineers on the company's own
+  payroll whose job is security. It is the number that answers "can they do this themselves", and it is
+  the hardest number to get: almost nobody publishes it, so the marker says what kind of claim it is and
+  the marker is worth more than the number:
+  - `published`: the company states the figure itself. **Confirmed**.
+  - `attested`: a named person vouches for it first-hand, usually because they work there or have run the
+    work themselves, and the company does not publish it. **Also confirmed**, and the source line says
+    who and why they would know.
+  - `estimated`: nobody could confirm it, so the maintainer put a **guarded estimate** in, from having
+    worked in this market. It is rounded, it is labelled `estimated` everywhere it appears, and it should
+    be treated as a starting point rather than a fact.
+  - `crowd`: a crowdsourced platform's pool of contracted researchers, which is not a payroll. Those rows
+    sort below every company with staff testers.
+  - `??`: no number has been established yet. Click through to send it in.
+- **Employees**: the whole company, not the security staff. `site` means the company states it; `registry`
+  means it is the headcount filed with Enhetsregisteret for the legal entity. Both carry the date they
+  were read, and both are shown when they disagree. A registry figure is never used as a security staff
+  count: it covers everyone, including people who never touch security work.
+- **Office in Norway**: `yes` requires a registered Norwegian entity or a published Norwegian address.
+  `no` means no Norwegian entity was found, which is not the same as "no Norwegian staff".
+- **Delivery**: how the Norwegian work is actually done. `in-house` means the company's own employees do
+  it, `mixed` means mostly own staff with subcontractors for peaks or specialisms, and `partner-sourced`
+  means there is no real delivery team here and the work is resold or subcontracted to somebody else.
+  `?` means it has not been established, which is a fact about the research rather than about the company.
+  This column exists because a provider and a reseller look identical on a services page and are very
+  different things to buy from.
+- **Speciality and capabilities**: one plain-language line on what the company is actually known for,
+  then the capability tags it publishes. The tags are the filter to use: they include offensive work
+  (penetration testing, red teaming, purple teaming, social engineering, attack surface management,
+  physical security, crypto audits), defensive work (SOC/MDR, incident response, threat intelligence,
+  threat hunting, forensics, malware analysis, endpoint, network, email, IAM, PKI, data protection,
+  backup), cloud and industrial work (cloud, OT/ICS, IoT, containers), and governance work (audit,
+  compliance, risk, privacy/GDPR, NIS2/DORA readiness, virtual CISO, training, tabletop exercises).
+- **Org. no.**: the nine-digit Norwegian organisasjonsnummer for the entity that delivers the Norwegian
+  work, the reliable way to tell providers apart after renames and acquisitions.
+- **Last updated**: when a human last checked the row. Green within 6 months, amber to 12, red beyond.
+
+## With a physical office in Norway
+
+{{TABLE_PRIMARY}}
+
+## No physical office in Norway
+
+Lower priority here, and for good reason: these providers deliver to Norwegian customers remotely or from
+abroad. Some are excellent and several are much cheaper than local alternatives. Two of them are
+crowdsourcing platforms rather than consultancies, which is a different buying model entirely.
+
+{{TABLE_SECONDARY}}
+
+## Why this list changes
+
+Company names change, firms get acquired, and vendors move in and out of the Norwegian market. Each entry
+records the rename history from the registry, so an old name in someone's procurement notes can still be
+traced to today's legal entity. Examples currently in the data:
+
+{{RENAMES}}
+
+## How this list is ordered
+
+1. **Tier first.** Companies with a physical office in Norway are listed first because that is what most
+   Norwegian buyers need. Companies without one are in a separate, lower-priority section.
+2. **In-house security staff, the primary signal.** A company that can staff the work itself sorts above
+   one whose count is only an estimate, which sorts above one where no count has been established. More
+   staff sorts higher within those groups. A crowdsourced researcher pool is not a payroll, so those rows
+   sort below every company with staff. Where the number is not known the row shows `??` rather than a
+   guess, and there is an [issue form](https://github.com/{{REPO}}/issues/new?template=update-company.yml)
+   to send it in.
+3. **Employees, the secondary signal.** Where staff counts tie or are equal, total headcount sorts next.
+4. **A missing number is not a zero.** A company with `??` sorts below one with a number purely because no
+   number has been established, which is a fact about what is known, not about its skill.
+5. **The label matters as much as the number.** See [How to read the columns](#how-to-read-the-columns)
+   above. An estimate sorts like a number but reads as an estimate.
+
+Fifteen security staff at a specialist boutique and fifteen inside a 4,000-person consultancy are very
+different propositions, and neither is ranked by quality here. Use the columns, not the order.
+
+## Read this before you rely on any number here
+
+- **These are aggregated numbers, and some of them are wrong.** They are collected from public sources,
+  from the Norwegian register of legal entities, and from people who know the market. Figures age,
+  companies reorganise, and headcounts shrink as well as grow.
+- **AI-assisted tooling was used for the data passes**: fetching pages, cross-checking registry records and
+  drafting entries. The original list was plain manual research by the author, and the facts in this
+  repository are reviewed by a human before they land, but treat every figure here as a starting point for
+  your own check rather than as due diligence.
+- **The estimates are the weakest numbers in the dataset.** They carry an `estimated` label wherever they
+  appear, they are documented in [docs/methodology.md](docs/methodology.md#guarded-estimates), and they can
+  be replaced by a published figure or a named attestation at any time.
+- **The delivery column is a claim like any other.** Where it says `partner-sourced` it is because the
+  company or a named person said so, or because the work is visibly delivered by another provider. Absence
+  of a delivery label means we have not established it.
+- **Ordering is by published and estimated numbers, not by quality.** See
+  [How this list is ordered](#how-this-list-is-ordered).
+- **Nothing here is a recommendation.** No company is endorsed, ranked, certified or paid for by this list,
+  and nobody has tested the vendors' work.
+
+## Corrections, additions and removals
+
+- **Corrections with a source are the most valuable contribution there is.** Open an issue or a pull
+  request; a URL beats a memory every time.
+- **Vendors may correct their own row** and may not delete a competitor's.
+- **Any company can ask to be removed from this list**, no reason required, and the removal is honoured.
+  Open an issue with the [removal form](https://github.com/{{REPO}}/issues/new?template=remove-company.yml)
+  and the row is deleted from the dataset and from every generated file on merge, with a line in
+  [CHANGELOG.md](CHANGELOG.md) recording that a removal happened without dwelling on who asked.
+  Being listed is not an accusation and leaving is not an admission of anything.
+- **A company can also ask for one figure to be dropped** while staying listed, for example if it does not
+  want its staff count published. Say which figure and it is removed; the rest of the row stays.
+
+## How this list is maintained
+
+- **Data lives in [`data/companies/`](data/companies)**, one JSON file per company. That file is the single
+  source of truth; this README, the [website]({{SITE_URL}}) and the CSV/JSON/YAML exports are all generated
+  from it, so they cannot disagree.
+- **Every figure carries its source and its basis**, and CI fails the build if a number appears without
+  one. `scripts/validate.py` is the enforcement.
+- **Registry headcounts can never be passed off as security staff counts.** The validator refuses it,
+  because Enhetsregisteret reports the whole entity and not what it does.
+- **A delivery model cannot be asserted without a source**, and `partner-sourced` or `mixed` has to say how
+  that was established.
+- **Rows are re-checked annually.** CI warns when a row is over 12 months old and fails at 24.
+- **Third-party flags are welcome, machinery is not.** Tools that scrape the data are fine; contributions
+  are reviewed by a human.
+
+```bash
+python3 scripts/validate.py     # check the dataset
+python3 scripts/build.py        # regenerate README, site and exports
+```
+
+## Exports
+
+| Format | File |
+|---|---|
+| CSV | [`export/companies.csv`](export/companies.csv) |
+| JSON | [`export/companies.json`](export/companies.json) |
+| YAML | [`export/companies.yaml`](export/companies.yaml) |
+
+## Credits and licence
+
+- **Author and originator:** [Ahmad Abdur Rehman](https://ahmad.science/) started this list in 2023 as a
+  list of penetration testing companies in Norway and maintained the
+  [2023](https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/)
+  and [2025](https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/)
+  editions. Every company from those editions that fits the wider scope is still here.
+- **Hire or connect:** [LinkedIn](https://www.linkedin.com/in/ahmadscience/) / [ahmad.science](https://ahmad.science/).
+- **Contributors:** see [CREDITS.md](CREDITS.md).
+- **Data licence:** [CC BY 4.0](LICENSE), reuse it freely, including commercially, as long as you credit
+  the author and link back to this repository.
+- **Code licence:** [MIT](LICENSE-CODE).
+- **Cite it:** see [CITATION.cff](CITATION.cff).
+
+Found a company that should be here, a figure that is wrong, or a company that should not be here? Open an
+issue or send a pull request.

@@ -1,0 +1,61 @@
+{
+  "id": "capgemini-norge",
+  "name": "Capgemini Norge",
+  "legal_name": "CAPGEMINI NORGE AS",
+  "website": "https://www.capgemini.com/no-no/",
+  "category": "norwegian",
+  "org_nr": "943574537",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "brreg_employees": 1402,
+  "brreg_employees_as_of": "2026-09-14",
+  "delivery": "in-house",
+  "delivery_source": "https://www.capgemini.com/no-no/",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Global consultancy with a Norwegian cyber security unit for testing, cloud and resilience.",
+  "capabilities": [
+    "penetration-testing",
+    "vulnerability-assessment",
+    "security-audit",
+    "cloud-security",
+    "identity-access-management",
+    "compliance"
+  ],
+  "founded": "1986-12-11",
+  "former_names": [
+    "CAP COMPUTAS AS",
+    "CAP GEMINI NORGE AS",
+    "CAP GEMINI ERNST & YOUNG NORGE AS"
+  ],
+  "notes": "The Enhetsregisteret homepage field listed www.no.capgemini.com, which does not resolve; the published Norwegian site is www.capgemini.com/no-no/.",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/943574537",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.capgemini.com/no-no/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Registry homepage field did not resolve; corrected to the published Norwegian site"
+    }
+  ]
+}

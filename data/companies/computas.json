@@ -1,0 +1,45 @@
+{
+  "id": "computas",
+  "name": "Computas",
+  "legal_name": "COMPUTAS AS",
+  "website": "https://computas.com",
+  "category": "norwegian",
+  "org_nr": "986352325",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://computas.com",
+  "specialty": "Public-sector technology consultancy with security, privacy and compliance advisory.",
+  "capabilities": [
+    "security-audit",
+    "compliance",
+    "privacy-gdpr",
+    "security-architecture",
+    "risk-management"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://computas.com",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/986352325",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 325,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "2003-11-25",
+  "former_names": [
+    "AS STARTSKUDDET 488",
+    "COMPUTAS CONSULTING AS",
+    "COMPUTAS SOLUTIONS AS"
+  ]
+}

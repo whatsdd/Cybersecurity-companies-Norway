@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en" data-palette="paper">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%23040708'/><text x='2' y='12' font-family='monospace' font-size='11' fill='%2339d353'>&gt;_</text></svg>">
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#companies">skip to the list</a>
+
+<div class="term">
+  <div class="term-bar">
+    <span class="term-title">cybersec-norway :: {{TOTAL}} providers :: last updated {{LAST_UPDATED}}</span>
+  </div>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="prompt-line"><span class="prompt">$</span> find ./norway -type company -capability security --in-house</p>
+      <h1 class="title">Cybersecurity companies in Norway<span class="cursor"></span></h1>
+      <p class="lede">{{LEDE}}</p>
+      <p class="byline">
+        started 2023 by <a href="https://ahmad.science/">Ahmad Abdur Rehman</a> as a pentest list, widened here, maintained in the open
+      </p>
+
+      <ul class="stats">
+        {{STATS}}
+      </ul>
+
+      <p class="hero-actions">
+        <a class="button button-primary" href="#companies">[ browse the list ]</a>
+        <a class="button" href="#notice-heading">[ caveats ]</a>
+        <a class="button" href="export/companies.csv">[ csv ]</a>
+        <a class="button" href="export/companies.json">[ json ]</a>
+        <button class="button" type="button" id="palette-toggle">palette: paper</button>
+      </p>
+    </div>
+  </header>
+</div>
+
+<main class="wrap">
+  <!-- The list leads and the reasoning follows: the caveats and the ordering rules
+       sit below the table. The hero links down to them so they stay reachable. -->
+  <section class="panel" aria-labelledby="filters-heading">
+    <h2 id="filters-heading" class="panel-heading">Filter</h2>
+    <div class="controls">
+      <div class="field field-search">
+        <label for="search">search</label>
+        <input type="search" id="search" placeholder="company, city, speciality, org. no. or tag&hellip;" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="capability">capability</label>
+        <select id="capability">
+          <option value="">all capabilities</option>
+          {{CAPABILITY_OPTIONS}}
+        </select>
+      </div>
+      <div class="field">
+        <label for="verification">verification</label>
+        <select id="verification">
+          <option value="">any status</option>
+          <option value="verified">verified</option>
+          <option value="partial">partly verified</option>
+          <option value="unverified">unverified</option>
+        </select>
+      </div>
+      <div class="field field-reset">
+        <button class="button" type="button" id="reset">[ reset ]</button>
+      </div>
+    </div>
+
+    <div class="chips" role="group" aria-label="Filter shortcuts">
+      <button class="chip chip-filter is-active" type="button" data-filter="category" data-value="">all {{TOTAL}}</button>
+      <button class="chip chip-filter" type="button" data-filter="office" data-value="true">office in norway {{WITH_OFFICE}}</button>
+      <button class="chip chip-filter" type="button" data-filter="staff" data-value="confirmed">confirmed staff count {{CONFIRMED_STAFF}}</button>
+      <button class="chip chip-filter" type="button" data-filter="staff" data-value="known">any staff count {{WITH_STAFF}}</button>
+      <button class="chip chip-filter" type="button" data-filter="staff" data-value="unknown">staff count unknown {{UNKNOWN_STAFF}}</button>
+      <button class="chip chip-filter" type="button" data-filter="delivery" data-value="in-house">delivers in-house {{IN_HOUSE}}</button>
+      <button class="chip chip-filter" type="button" data-filter="delivery" data-value="partner">partner-sourced {{PARTNER}}</button>
+      <button class="chip chip-filter" type="button" data-filter="headcount" data-value="true">has headcount figure {{WITH_ANY_HEADCOUNT}}</button>
+      <button class="chip chip-filter" type="button" data-filter="category" data-value="norwegian">norwegian {{COUNT_NORWEGIAN}}</button>
+      <button class="chip chip-filter" type="button" data-filter="category" data-value="nordic">nordic {{COUNT_NORDIC}}</button>
+      <button class="chip chip-filter" type="button" data-filter="category" data-value="international">international {{COUNT_INTERNATIONAL}}</button>
+    </div>
+
+    <p class="result-count" id="result-count" role="status" aria-live="polite">showing {{TOTAL}} of {{TOTAL}} companies</p>
+  </section>
+
+  <section id="companies">
+    <div id="tier-primary">
+      <h2 class="section-heading"><span class="prompt">&gt;</span> with a physical office in Norway <span class="count">{{COUNT_PRIMARY}}</span></h2>
+      <div class="table-scroll">
+        <table class="companies" id="table-primary">
+          <caption class="visually-hidden">Cybersecurity providers with a registered Norwegian presence, ordered by confirmed in-house security staff, then estimates, then employees</caption>
+          <colgroup>
+            <col class="col-company"><col class="col-num"><col class="col-num"><col class="col-office">
+            <col class="col-delivery"><col class="col-services"><col class="col-org"><col class="col-verified">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col" data-key="name"><button type="button" class="sort">Company</button></th>
+              <th scope="col" data-key="staff" class="num-col"><button type="button" class="sort">In-house security staff</button></th>
+              <th scope="col" data-key="employees" class="num-col"><button type="button" class="sort">Employees</button></th>
+              <th scope="col" data-key="office"><button type="button" class="sort">Office in Norway</button></th>
+              <th scope="col" data-key="delivery"><button type="button" class="sort">Delivery</button></th>
+              <th scope="col" data-key="capabilities"><button type="button" class="sort">Speciality and capabilities</button></th>
+              <th scope="col" data-key="org"><button type="button" class="sort">Org. no. / founded</button></th>
+              <th scope="col" data-key="verified" class="num-col"><button type="button" class="sort">Last updated</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ROWS_PRIMARY}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tier-secondary" class="tier-secondary">
+      <h2 class="section-heading"><span class="prompt">&gt;</span> no physical office in Norway <span class="count">{{COUNT_SECONDARY}}</span></h2>
+      <p class="tier-note">
+        Lower priority: these providers deliver to Norwegian customers remotely or from abroad. Some are
+        excellent and several are cheaper than local alternatives. Two are crowdsourcing platforms rather
+        than consultancies, which is a different buying model entirely.
+      </p>
+      <div class="table-scroll">
+        <table class="companies" id="table-secondary">
+          <caption class="visually-hidden">Cybersecurity providers with no Norwegian entity found, ordered by confirmed in-house security staff, then estimates, then employees</caption>
+          <colgroup>
+            <col class="col-company"><col class="col-num"><col class="col-num"><col class="col-office">
+            <col class="col-delivery"><col class="col-services"><col class="col-org"><col class="col-verified">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col" data-key="name"><button type="button" class="sort">Company</button></th>
+              <th scope="col" data-key="staff" class="num-col"><button type="button" class="sort">In-house security staff</button></th>
+              <th scope="col" data-key="employees" class="num-col"><button type="button" class="sort">Employees</button></th>
+              <th scope="col" data-key="office"><button type="button" class="sort">Office in Norway</button></th>
+              <th scope="col" data-key="delivery"><button type="button" class="sort">Delivery</button></th>
+              <th scope="col" data-key="capabilities"><button type="button" class="sort">Speciality and capabilities</button></th>
+              <th scope="col" data-key="org"><button type="button" class="sort">Org. no. / founded</button></th>
+              <th scope="col" data-key="verified" class="num-col"><button type="button" class="sort">Last updated</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ROWS_SECONDARY}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p class="table-note">
+      <span class="unknown">??</span> means no in-house staff count has been established yet, and the row carries a button to send one in.
+      <span class="key"><span class="dot dot-fresh"></span> updated within 6 months</span>
+      <span class="key"><span class="dot dot-aging"></span> 6-12 months</span>
+      <span class="key"><span class="dot dot-stale"></span> over 12 months</span>
+    </p>
+  </section>
+
+  <section class="panel" aria-labelledby="order-heading">
+    <h2 id="order-heading" class="panel-heading">How the list is ordered</h2>
+    <ol class="order-list">
+      <li><strong>Tier first:</strong> companies with a physical office in Norway are listed first; those without one are in a separate, lower-priority section below.</li>
+      <li><strong>In-house security staff is the primary signal.</strong> Companies whose count is confirmed sort above those with an estimate, which sort above those where nothing could be established. Within each group, more staff sorts higher. A crowdsourced researcher pool is not a payroll, so those rows sort below every company with staff. Unknown shows <span class="unknown">??</span> rather than a guess.</li>
+      <li><strong>Employees: the secondary signal</strong>, used where staff counts tie or are missing.</li>
+      <li><strong>A missing number is not a zero.</strong> A company with <span class="unknown">??</span> sorts below one with a number because no number has been established, which is a fact about what is known, not about its skill.</li>
+      <li><strong>The label matters as much as the number.</strong> <span class="chip chip-site">published</span> comes from the company itself; <span class="chip chip-attested">attested</span> from a named person vouching for it first-hand; those two are the confirmed ones. <span class="chip chip-estimated">estimated</span> is a guarded estimate by the maintainer, the weakest basis above unknown, and <span class="chip chip-crowd">crowd</span> is a researcher pool, not staff.</li>
+    </ol>
+    <p class="caveat">Fifteen security staff at a specialist boutique and fifteen inside a 4,000-person consultancy are very different propositions, and nothing here is ranked by quality. Read the columns, not the order.</p>
+  </section>
+
+  <section class="panel" aria-labelledby="delivery-heading">
+    <h2 id="delivery-heading" class="panel-heading">Why there is a delivery column</h2>
+    <div class="prose">
+      <p>
+        A lot of security work sold in Norway is not delivered by the company selling it. A services page
+        looks the same whether a firm has forty analysts on its own payroll or one account manager and a
+        subcontractor on speed dial, and the difference matters if you are buying incident response at
+        03:00 or want to know who is accountable when a test misses something.
+      </p>
+      <p>
+        So each row says how the work is delivered: <span class="chip chip-inhouse">in-house</span> when
+        the company's own employees do it, <span class="chip chip-mixed">mixed</span> when it is mostly
+        own staff with subcontractors for peaks or specialisms, and
+        <span class="chip chip-partner">partner-sourced</span> when there is no real delivery team here
+        and the work goes to another provider. <span class="unknown">?</span> means we have not
+        established it, which says something about our research and nothing about the company. A partner
+        network is a legitimate way to buy: it is just a different thing to buy, and it should not be a
+        surprise after the contract is signed.
+      </p>
+    </div>
+  </section>
+
+  <section class="notice" aria-labelledby="notice-heading">
+    <h2 id="notice-heading" class="notice-heading">! read this before you rely on any number here</h2>
+    <ul>
+      <li><strong>These numbers are aggregated and some of them are wrong.</strong> They come from public sources, from the Norwegian register of legal entities, and from people who know the market. Figures age, companies reorganise, and headcounts shrink as well as grow.</li>
+      <li><strong>AI-assisted tooling was used for the data passes</strong>: fetching pages, cross-checking registry records and drafting entries. The original list was plain manual research by the author, and every fact here is reviewed by a human before it lands, but treat it as a starting point for your own checks, not as due diligence.</li>
+      <li><strong>The estimates are the weakest numbers here.</strong> They are labelled <span class="chip chip-estimated">estimated</span> everywhere they appear, and they can be replaced by a published figure or a named attestation at any time. A registry headcount is never used as a security staff count, because the registry reports whole entities.</li>
+      <li><strong>Ordering is by published numbers, not quality</strong>, and <strong>nothing here is a recommendation</strong>. No company is endorsed, ranked or paid for, and no vendor's work has been tested.</li>
+    </ul>
+  </section>
+
+  <section class="panel" aria-labelledby="method-heading">
+    <h2 id="method-heading" class="panel-heading">How this list is maintained</h2>
+    <div class="prose">
+      <p>
+        Every company has one JSON file in <code>data/companies/</code>. This page, the README and the
+        CSV and JSON exports are all generated from those files, so they cannot disagree with each other.
+      </p>
+      <p>
+        Norwegian office status, company registration numbers and registry headcounts come from
+        <a href="https://data.brreg.no/enhetsregisteret/api/docs/index.html">Enhetsregisteret</a>, the
+        Norwegian register of legal entities, which is open data. A headcount stated by the company
+        itself is marked <span class="chip chip-site">site</span>; a registry figure is marked
+        <span class="chip chip-registry">registry</span>; a staff count somebody vouched for first-hand is
+        marked <span class="chip chip-attested">attested</span>; and one the maintainer estimated from
+        market knowledge is marked <span class="chip chip-estimated">estimated</span>. Read the label
+        before the number.
+      </p>
+      <p>
+        Numbers are never invented. Where a figure is unknown the row says <span class="unknown">??</span>,
+        and CI fails the build if a number appears without a source URL behind it. Rows are re-checked
+        annually: CI warns at 12 months and fails at 24. Click any company name for its notes, its
+        capability tags and its sources.
+      </p>
+      <p>
+        Vendors may correct facts about their own company but not remove competitors, and any company can
+        ask to be removed from the list entirely: the row is deleted from the dataset and every generated
+        file, with a line in the changelog recording that a removal request was honoured. Being listed is
+        not an accusation and leaving is not an admission of anything.
+      </p>
+      <p class="contribute">
+        <a class="button button-primary" href="https://github.com/{{REPO}}/blob/main/CONTRIBUTING.md">[ add a company ]</a>
+        <a class="button" href="https://github.com/{{REPO}}/issues/new/choose">[ report a correction ]</a>
+        <a class="button" href="https://github.com/{{REPO}}/issues/new?template=remove-company.yml">[ ask to be removed ]</a>
+        <a class="button" href="https://github.com/{{REPO}}">[ repository ]</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="credit">
+      <strong>Started in 2023 by <a href="https://ahmad.science/">Ahmad Abdur Rehman</a>.</strong>
+      First published as a list of 39 penetration testing companies, expanded in the
+      <a href="https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/">2025 edition</a>,
+      and widened here to cybersecurity and information security providers, still as an open dataset.
+    </p>
+    <p class="fine-print">
+      Data licensed <a href="https://github.com/{{REPO}}/blob/main/LICENSE">CC BY 4.0</a>, reuse it freely,
+      including commercially, with attribution. Code licensed
+      <a href="https://github.com/{{REPO}}/blob/main/LICENSE-CODE">MIT</a>.
+      Dataset version {{LAST_UPDATED}}; every row carries the date it was last checked.
+    </p>
+    <p class="hire">
+      Hiring security people, or scoping security work of your own?
+      <a class="button button-primary" href="https://www.linkedin.com/in/ahmadscience/" rel="me noopener">[ connect on linkedin ]</a>
+      <a class="button" href="https://ahmad.science/">[ ahmad.science ]</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+{{JS}}
+</script>
+</body>
+</html>

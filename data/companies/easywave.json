@@ -1,0 +1,41 @@
+{
+  "id": "easywave",
+  "name": "Easywave",
+  "legal_name": "EASYWAVE AS",
+  "website": "https://easywave.io",
+  "category": "norwegian",
+  "org_nr": "930800880",
+  "office_cities": [
+    "Moss"
+  ],
+  "specialty": "Norwegian IT security provider for small and mid-sized businesses.",
+  "capabilities": [
+    "endpoint-security",
+    "email-security",
+    "network-security",
+    "awareness-training",
+    "backup-recovery"
+  ],
+  "delivery": "in-house",
+  "office_in_norway": true,
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://easywave.io",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930800880",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "delivery_source": "https://easywave.io",
+  "delivery_note": "Recorded from the company's own description of how it staffs the work.",
+  "notes": "Added in the wider cybersecurity pass; the security practice is checked against the company's own service pages, so some capability tags may need confirming.",
+  "brreg_employees_as_of": "2024-12-11",
+  "founded": "2023-01-17"
+}

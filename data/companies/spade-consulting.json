@@ -1,0 +1,32 @@
+{
+  "id": "spade-consulting",
+  "name": "SPADE Consulting",
+  "website": "https://spadeconsulting.no",
+  "category": "norwegian",
+  "office_in_norway": true,
+  "office_cities": [
+    "Bodø"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://spadeconsulting.no",
+  "specialty": "Northern Norway security and privacy consultancy: NIS2, GDPR and AI governance.",
+  "capabilities": [
+    "compliance",
+    "privacy-gdpr",
+    "nis2-dora",
+    "security-audit",
+    "vciso",
+    "awareness-training"
+  ],
+  "notes": "Small specialist consultancy based in Bodo; no Norwegian company registration was matched with confidence, so the row carries the company's own site as its source.",
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://spadeconsulting.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nixu-dnv",
+  "name": "DNV Cyber",
+  "legal_name": "DNV AS",
+  "website": "https://www.nixu.com",
+  "category": "nordic",
+  "org_nr": "945748931",
+  "office_in_norway": true,
+  "office_cities": [
+    "Høvik"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.nixu.com",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "DNV's cyber security unit, which absorbed Nixu: testing, OT security and certification.",
+  "capabilities": [
+    "penetration-testing",
+    "vulnerability-assessment",
+    "soc",
+    "incident-response",
+    "ot-ics-security",
+    "security-audit",
+    "compliance",
+    "security-training"
+  ],
+  "notes": "Listed as \"Nixu / DNV\". Nixu is headquartered in Finland and was acquired by DNV, which is Norwegian-headquartered (DNV AS, org.nr 945748931, Hovik). The Nixu Norway AS entity referenced in the 2023 edition no longer resolves in the registry, so the current legal entity for the cyber business needs confirming. Nixu, the Finnish security consultancy acquired by DNV, no longer has a Norwegian entity; the Norwegian cyber business sits in DNV AS, which is Norwegian-headquartered.",
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.nixu.com",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/945748931",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 2341,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "1988-01-01",
+  "former_names": [
+    "Det norske Veritas Classification A/S",
+    "DET NORSKE VERITAS AS",
+    "DNV GL AS"
+  ]
+}

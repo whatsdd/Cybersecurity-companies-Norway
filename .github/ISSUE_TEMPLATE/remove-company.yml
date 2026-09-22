@@ -1,0 +1,87 @@
+name: Ask to be removed from the list
+description: A company, or someone authorised to speak for it, asks to be delisted
+title: "Removal request: "
+labels: ["removal request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Any company can be removed from this list, for any reason or for none.
+
+        What happens next:
+
+        - The row is deleted from `data/companies/`, and from the README, the site and the exports,
+          which are generated from it.
+        - `CHANGELOG.md` records that a removal request was honoured. It does not record who asked or
+          why. If you would rather that not be mentioned at all, say so below.
+        - The old row remains in the git history. That is how a public repository works, and
+          pretending otherwise would not be honest.
+        - Being listed was never an accusation, and leaving is not an admission of anything.
+
+        If you would rather not post this publicly, say so and a maintainer will arrange a private
+        route.
+
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: Example Security AS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      options:
+        - "I am authorised to speak for this company"
+        - "I work at this company"
+        - "I represent this company (agency, legal, PR)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: What should be removed?
+      options:
+        - "The whole row: remove the company from the list"
+        - "One figure only: keep the row, drop a specific figure"
+        - "Not sure yet: I would like to discuss it first"
+    validations:
+      required: true
+
+  - type: input
+    id: figure
+    attributes:
+      label: If it is one figure, which one?
+      placeholder: "The in-house security staff count"
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: How can a maintainer confirm this with you?
+      description: |
+        A work email address, a phone number, or a public post from a company channel. This is only
+        used to confirm the request, and it is not published.
+      placeholder: "name@example.no, or a link to a public statement"
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Anything you want to add (optional)
+      description: Not required, and it does not change the outcome. Useful only if you want us to know whether something in the row was wrong.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand the row will be deleted from the dataset and from the generated files, and that the old entry stays visible in the git history.
+        - label: Optional: please do not mention this removal in the changelog at all.

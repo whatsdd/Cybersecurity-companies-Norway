@@ -1,0 +1,45 @@
+{
+  "id": "globalconnect",
+  "name": "GlobalConnect Norge",
+  "legal_name": "GLOBALCONNECT AS",
+  "website": "https://www.globalconnect.no",
+  "category": "nordic",
+  "org_nr": "890164072",
+  "office_in_norway": true,
+  "office_cities": [
+    "Fornebu"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.globalconnect.no",
+  "specialty": "Digital infrastructure provider selling network security, DDoS protection and managed security.",
+  "capabilities": [
+    "network-security",
+    "soc",
+    "incident-response",
+    "cloud-security"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.globalconnect.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/890164072",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 444,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "2006-07-31",
+  "former_names": [
+    "TEKÅGEL INVEST 160 AS",
+    "VENTELO BEDRIFT AS",
+    "VENTELO AS",
+    "BROADNET AS"
+  ]
+}

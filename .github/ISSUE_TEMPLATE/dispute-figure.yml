@@ -1,0 +1,92 @@
+name: Dispute a figure
+description: Contest a number or a claim about your own company
+title: "Dispute: "
+labels: ["dispute"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this if a figure about **your own company** is wrong and you want it corrected or
+        removed. This is the formal path, and it takes precedence over the general update form. If you
+        want the whole row gone, use the removal form instead: that is honoured too, and it does not
+        need a reason.
+
+        What this list will and will not do:
+
+        - It **will** correct or remove a figure that is wrong, unclear, or about the wrong legal
+          entity.
+        - It **will** record your figure as *your own statement*, sourced to you, rather than as an
+          independently verified fact.
+        - It **will** remove your company from the list on request, for any reason or none.
+        - It **will not** remove a competitor, and it **will not** accept a correction that contradicts
+          a public source without an explanation of the discrepancy: normally both versions get
+          recorded in the notes instead.
+
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: Example Security AS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: Which figure or claim is disputed?
+      options:
+        - Norwegian office status
+        - Organisation number / wrong legal entity
+        - In-house security staff figure, or its basis
+        - Employees figure
+        - Delivery model
+        - Speciality line
+        - Capability tags
+        - Certifications
+        - Website
+        - The company is described as something it is not
+    validations:
+      required: true
+
+  - type: textarea
+    id: disputed
+    attributes:
+      label: What the list currently claims
+      placeholder: Lists 95 employees sourced to a registry filing
+    validations:
+      required: true
+
+  - type: textarea
+    id: position
+    attributes:
+      label: Your position, and why
+      description: Explain the discrepancy if the list is citing a public source.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: A registry filing, a press release, your own published page, or an explanation if the figure is genuinely not published.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      options:
+        - "I am authorised to speak for this company"
+        - "I work at this company"
+        - "I represent this company (agency, legal, PR)"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am asking only to have the figure corrected, and I am content for the company to stay listed.
+        - label: I would also like the company removed from the list, and I understand that request is honoured under the rules in docs/methodology.md.

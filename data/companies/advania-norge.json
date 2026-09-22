@@ -1,0 +1,44 @@
+{
+  "id": "advania-norge",
+  "name": "Advania Norge",
+  "legal_name": "ADVANIA NORGE AS",
+  "website": "https://www.advania.no",
+  "category": "nordic",
+  "org_nr": "992009241",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.advania.no",
+  "specialty": "Nordic managed services group selling security operations, identity and cloud security.",
+  "capabilities": [
+    "cloud-security",
+    "identity-access-management",
+    "network-security",
+    "soc",
+    "backup-recovery",
+    "endpoint-security"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.advania.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/992009241",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 736,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "2007-11-12",
+  "former_names": [
+    "ITELLO AS"
+  ]
+}

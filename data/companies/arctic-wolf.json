@@ -1,0 +1,37 @@
+{
+  "id": "arctic-wolf",
+  "name": "Arctic Wolf",
+  "legal_name": "ARCTIC WOLF NETWORKS, INC.",
+  "website": "https://arcticwolf.com",
+  "category": "international",
+  "org_nr": "929507282",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://arcticwolf.com",
+  "specialty": "Managed detection and response provider selling to Norwegian insurers and enterprises.",
+  "capabilities": [
+    "soc",
+    "incident-response",
+    "threat-hunting",
+    "threat-intelligence"
+  ],
+  "notes": "US company with a registered Norwegian branch (NUF) in Oslo; the delivery centre is not in Norway.",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929507282",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://arcticwolf.com",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ]
+}

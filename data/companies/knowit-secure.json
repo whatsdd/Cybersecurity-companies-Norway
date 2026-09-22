@@ -1,0 +1,60 @@
+{
+  "id": "knowit-secure",
+  "name": "Knowit Cybersecurity & Law",
+  "legal_name": "KNOWIT CYBERSECURITY & LAW AS",
+  "website": "https://www.knowit.no",
+  "category": "norwegian",
+  "org_nr": "913513657",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.knowit.no",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Knowit's security, privacy and technology-law unit: testing, governance and NIS2 work.",
+  "capabilities": [
+    "penetration-testing",
+    "security-audit",
+    "compliance",
+    "privacy-gdpr",
+    "nis2-dora",
+    "incident-response",
+    "security-architecture"
+  ],
+  "notes": "Listed as \"Knowit Secure AS\", but no entity with that name exists in the registry. Knowit's Norwegian business is spread across several entities (Knowit Insight AS, Knowit Impact AS, Knowit Solutions Norway AS), all registered in Oslo. Needs a community member to confirm which entity the security testing services sit in today. The pentest edition could not find an entity for this name; the business sits in Knowit Cybersecurity & Law AS, which the registry confirms.",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.knowit.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/913513657",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 15,
+  "brreg_employees_as_of": "2026-07-15",
+  "founded": "2014-04-11",
+  "former_names": [
+    "FN7 ÅRGANG 2014 V AS",
+    "KNOWIT SECURE AS"
+  ]
+}

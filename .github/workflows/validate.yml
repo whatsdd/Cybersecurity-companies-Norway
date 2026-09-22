@@ -1,0 +1,75 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dataset:
+    name: dataset and generated files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate the dataset
+        run: python3 scripts/validate.py
+
+      - name: Check that generated files are current
+        run: python3 scripts/build.py --check
+
+      - name: Confirm the YAML export actually parses
+        # The YAML export is written by a hand-rolled emitter, so it is parsed
+        # back with a real YAML parser (Ruby ships on the runner) rather than
+        # trusted. Generating valid YAML is easy to get subtly wrong.
+        run: |
+          ruby -ryaml -e '
+            # Safe loading on purpose: if this ever needs unsafe_load_file again,
+            # something in the export is being reinterpreted rather than kept as
+            # the plain value the JSON export carries.
+            data = YAML.load_file("export/companies.yaml")
+            abort "count mismatch" unless data["count"] == data["companies"].length
+            abort "missing id" unless data["companies"].all? { |c| c["id"] }
+            abort "missing sources" unless data["companies"].all? { |c| c["sources"].is_a?(Array) && !c["sources"].empty? }
+            # Types must match the JSON export: a digit-only org number or a date
+            # that YAML silently turned into a number or a Date is a real
+            # interoperability bug for anyone consuming the export.
+            data["companies"].each do |c|
+              abort "org_nr not a string: #{c["org_nr"].class}" if c["org_nr"] && !c["org_nr"].is_a?(String)
+              abort "last_verified not a string" unless c["last_verified"].is_a?(String)
+              abort "office_in_norway not a boolean" unless [true, false].include?(c["office_in_norway"])
+              abort "capabilities not an array" unless c["capabilities"].is_a?(Array)
+              # A staff figure without a stated basis is the failure mode this
+              # whole dataset exists to avoid: an estimate read as a fact.
+              abort "security_staff without a basis" if c["security_staff"] && !c["security_staff_basis"]
+              abort "delivery without a source" if c["delivery"] && !c["delivery_source"]
+            end
+            puts "export/companies.yaml parses with faithful types: #{data["count"]} companies"
+          '
+
+      - name: Confirm the toolchain needs only the Python standard library
+        # The whole point of this project's tooling is that a contributor can run
+        # it with the Python they already have: no pip install, no npm, no venv.
+        # An allow-list is used rather than sys.stdlib_module_names so the check
+        # also works on the older Python a contributor may have locally.
+        run: |
+          python3 scripts/check_stdlib_only.py
+
+  links:
+    name: source links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check every source URL
+        run: python3 scripts/linkcheck.py

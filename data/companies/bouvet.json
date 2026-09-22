@@ -1,0 +1,48 @@
+{
+  "id": "bouvet",
+  "name": "Bouvet",
+  "legal_name": "BOUVET ASA",
+  "website": "https://www.bouvet.no",
+  "category": "norwegian",
+  "org_nr": "974442167",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.bouvet.no",
+  "specialty": "Norwegian technology consultancy with security architecture, testing and secure development.",
+  "capabilities": [
+    "security-architecture",
+    "application-security",
+    "penetration-testing",
+    "cloud-security",
+    "devsecops",
+    "secure-development"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.bouvet.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/974442167",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "founded": "1995-05-03",
+  "former_names": [
+    "NEW MEDIA SCIENCE MULTIMEDIA AS",
+    "NEW MEDIA SCIENCE MULTIMEDIA ASA",
+    "NEW MEDIA SCIENCE ASA",
+    "CELL NETWORK ASA",
+    "CELL NETWORK AS",
+    "RONDE AS",
+    "BOUVET AS"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "capra-consulting",
+  "name": "Capra Consulting",
+  "legal_name": "CAPRA CONSULTING AS",
+  "website": "https://www.capraconsulting.no",
+  "category": "norwegian",
+  "org_nr": "988097039",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "employees_total": 90,
+  "employees_source": "https://www.capraconsulting.no",
+  "employees_note": "stated as \"90+ self-managed consultants\"",
+  "employees_as_of": "2026-09-22",
+  "brreg_employees": 92,
+  "brreg_employees_as_of": "2026-09-14",
+  "delivery": "in-house",
+  "delivery_source": "https://www.capraconsulting.no",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Software consultancy whose security group does testing, cloud security and secure development.",
+  "capabilities": [
+    "penetration-testing",
+    "vulnerability-assessment",
+    "cloud-security",
+    "secure-development",
+    "devsecops",
+    "code-review"
+  ],
+  "founded": "2005-03-21",
+  "former_names": [
+    "OPENDOOR TECHNOLOGY AS",
+    "ODC AS"
+  ],
+  "notes": "Registry history: OPENDOOR TECHNOLOGY AS -> ODC AS -> CAPRA CONSULTING AS.",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/988097039",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.capraconsulting.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ]
+}

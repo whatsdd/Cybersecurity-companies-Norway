@@ -1,0 +1,44 @@
+{
+  "id": "proactima",
+  "name": "Proactima",
+  "legal_name": "PROACTIMA AS",
+  "website": "https://www.proactima.no",
+  "category": "norwegian",
+  "org_nr": "915641938",
+  "office_in_norway": true,
+  "office_cities": [
+    "Stavanger"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.proactima.no",
+  "specialty": "Risk and resilience consultancy working across security, crisis and NIS2 readiness.",
+  "capabilities": [
+    "risk-management",
+    "compliance",
+    "nis2-dora",
+    "tabletop-exercises",
+    "security-audit",
+    "vciso"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.proactima.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915641938",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 81,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "2015-06-22",
+  "former_names": [
+    "NEW PROACTIMA AS"
+  ]
+}

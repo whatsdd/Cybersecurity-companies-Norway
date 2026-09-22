@@ -1,0 +1,48 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Weekly refresh so staleness indicators age on schedule and generated files
+    # never silently rot. Rows past 24 months fail the validator instead.
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-main
+  cancel-in-progress: true
+
+jobs:
+  regenerate:
+    name: regenerate README, site and exports
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate before generating
+        run: python3 scripts/validate.py
+
+      - name: Regenerate from the dataset
+        run: python3 scripts/build.py
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet --exit-code; then
+            echo "generated files already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md site/index.html export
+          git commit -m "chore: regenerate README, site and exports from data"
+          git push

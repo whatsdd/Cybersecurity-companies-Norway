@@ -1,0 +1,35 @@
+{
+  "id": "norconsult-digital",
+  "name": "Norconsult Digital",
+  "website": "https://norconsultdigital.no",
+  "category": "norwegian",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://norconsultdigital.no",
+  "specialty": "Public-sector IT house whose security consultants cover information security and audit.",
+  "capabilities": [
+    "security-audit",
+    "compliance",
+    "security-architecture",
+    "privacy-gdpr",
+    "risk-management"
+  ],
+  "notes": "Norconsult Digital is the IT company in the Norconsult group and states that it is an approved evaluation body with security-cleared consultants; the delivering entity needs confirming.",
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://norconsultdigital.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ],
+  "employees_total": 200,
+  "employees_source": "https://norconsultdigital.no",
+  "employees_note": "stated as over 200 employees",
+  "employees_as_of": "2026-09-22"
+}

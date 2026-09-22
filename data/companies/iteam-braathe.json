@@ -1,0 +1,52 @@
+{
+  "id": "iteam-braathe",
+  "name": "iTeam Braathe",
+  "legal_name": "ITEAM BRAATHE AS",
+  "website": "https://www.braathe.no",
+  "category": "norwegian",
+  "org_nr": "981933311",
+  "office_cities": [
+    "Rygge"
+  ],
+  "specialty": "Ostfold managed services house selling endpoint, identity and security operations.",
+  "capabilities": [
+    "endpoint-security",
+    "identity-access-management",
+    "network-security",
+    "soc",
+    "awareness-training"
+  ],
+  "delivery": "in-house",
+  "office_in_norway": true,
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.braathe.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/981933311",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "delivery_source": "https://www.braathe.no",
+  "delivery_note": "Recorded from the company's own description of how it staffs the work.",
+  "notes": "Added in the wider cybersecurity pass; the security practice is checked against the company's own service pages, so some capability tags may need confirming.",
+  "brreg_employees": 131,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "2000-03-28",
+  "former_names": [
+    "CLIENTPARTNER AS",
+    "AXESSPARTNER AS",
+    "BRAATHE GRUPPEN AS",
+    "BRAATHE AS"
+  ],
+  "employees_total": 500,
+  "employees_source": "https://www.braathe.no",
+  "employees_note": "group-wide: over 500 staff across the iTeam group, of whom 131 are in this entity",
+  "employees_as_of": "2026-09-22"
+}

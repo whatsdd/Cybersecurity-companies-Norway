@@ -1,0 +1,48 @@
+{
+  "id": "ikomm",
+  "name": "Ikomm",
+  "legal_name": "IKOMM AS",
+  "website": "https://www.ikomm.no",
+  "category": "norwegian",
+  "org_nr": "991335846",
+  "office_in_norway": true,
+  "office_cities": [
+    "Lillehammer"
+  ],
+  "delivery": "mixed",
+  "delivery_source": "https://www.ikomm.no",
+  "delivery_note": "Runs its own security operations and has brought in Orange Cyberdefense expertise for part of its SOC delivery; recorded as mixed rather than pure in-house.",
+  "specialty": "Innlandet IT and security house running a security operations centre for the public sector.",
+  "capabilities": [
+    "soc",
+    "incident-response",
+    "cloud-security",
+    "network-security",
+    "compliance",
+    "security-architecture"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.ikomm.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://www.orangecyberdefense.com/no/offering/managed-services/incident-response",
+      "type": "news",
+      "checked": "2026-09-22",
+      "note": "Orange Cyberdefense describes Ikomm bringing in security expertise from Orange"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991335846",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 168,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "2007-05-14"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "encripto",
+  "name": "Encripto",
+  "legal_name": "ENCRIPTO AS",
+  "website": "https://www.encripto.no",
+  "category": "norwegian",
+  "org_nr": "996240630",
+  "office_in_norway": true,
+  "office_cities": [
+    "Gressvik"
+  ],
+  "brreg_employees_as_of": "2026-09-14",
+  "delivery": "in-house",
+  "delivery_source": "https://www.encripto.no",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Specialist testing house: penetration testing, red teaming and cryptography reviews.",
+  "capabilities": [
+    "penetration-testing",
+    "red-teaming",
+    "vulnerability-assessment",
+    "application-security",
+    "crypto-blockchain-audit"
+  ],
+  "founded": "2010-11-25",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/996240630",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.encripto.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ]
+}

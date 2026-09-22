@@ -1,0 +1,77 @@
+{
+  "id": "semaphore",
+  "name": "Semaphore",
+  "legal_name": "SEMAPHORE CONSULTING PARTNERS AS",
+  "website": "https://www.semaphore.no",
+  "category": "norwegian",
+  "org_nr": "989925970",
+  "office_in_norway": true,
+  "office_cities": [
+    "Stabekk"
+  ],
+  "security_staff": 14,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor.",
+  "employees_total": 20,
+  "employees_source": "https://www.semaphore.no",
+  "employees_note": "stated as just under 20 employees",
+  "employees_as_of": "2026-09-22",
+  "brreg_employees": 14,
+  "brreg_employees_as_of": "2026-08-11",
+  "delivery": "in-house",
+  "delivery_source": "https://www.semaphore.no",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Boutique testing house: penetration testing, red teaming and security assessments.",
+  "capabilities": [
+    "penetration-testing",
+    "red-teaming",
+    "vulnerability-assessment",
+    "security-audit",
+    "social-engineering",
+    "security-training"
+  ],
+  "certifications": [
+    "ISO/IEC 27001"
+  ],
+  "founded": "2006-05-05",
+  "former_names": [
+    "SCIO AS"
+  ],
+  "notes": "Registry entity SEMAPHORE CONSULTING PARTNERS AS, Stabekk, whose former name was SCIO AS. A separate SEMAPHORE AS (org.nr 924505214, Oslo) also exists. Which one delivers the security testing in the list should be confirmed.",
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/989925970",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.semaphore.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "synack",
+  "name": "Synack",
+  "website": "https://www.synack.com",
+  "category": "international",
+  "office_in_norway": false,
+  "office_cities": [],
+  "security_staff": 1500,
+  "security_staff_basis": "crowd-platform",
+  "security_staff_source": "https://www.synack.com",
+  "security_staff_note": "The Synack Red Team is a crowd of 1,500+ contracted security researchers, not employees",
+  "delivery": "partner-network",
+  "delivery_source": "https://www.synack.com",
+  "delivery_note": "The company's own materials describe work being resold or subcontracted rather than staffed from its own payroll.",
+  "specialty": "Crowdsourced penetration testing platform drawing on a large vetted researcher pool.",
+  "capabilities": [
+    "penetration-testing",
+    "red-teaming",
+    "crowdsourced-testing",
+    "vulnerability-assessment",
+    "attack-surface-management"
+  ],
+  "notes": "No Norwegian entity registered; serves Norwegian customers remotely.",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.synack.com",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "deloitte-norge",
+  "name": "Deloitte Norge",
+  "legal_name": "DELOITTE AS",
+  "website": "https://www.deloitte.no",
+  "category": "norwegian",
+  "org_nr": "980211282",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.deloitte.no",
+  "specialty": "Audit and advisory firm with cyber risk, testing, cloud security and incident response teams.",
+  "capabilities": [
+    "penetration-testing",
+    "security-audit",
+    "compliance",
+    "risk-management",
+    "cloud-security",
+    "incident-response",
+    "privacy-gdpr",
+    "digital-forensics"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.deloitte.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980211282",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 1227,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "1998-10-01",
+  "former_names": [
+    "DELOITTE & TOUCHE STATSAUTORISERTE REVISORER AS",
+    "DELOITTE STATSAUTORISERTE REVISORER AS"
+  ]
+}

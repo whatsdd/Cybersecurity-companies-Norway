@@ -1,0 +1,44 @@
+{
+  "id": "conscia-norge",
+  "name": "Conscia Norge",
+  "legal_name": "CONSCIA NORGE AS",
+  "website": "https://conscia.com/no/",
+  "category": "nordic",
+  "org_nr": "998613353",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://conscia.com/no/",
+  "specialty": "Nordic infrastructure and cyber security house: network security, SOC and hybrid cloud.",
+  "capabilities": [
+    "network-security",
+    "soc",
+    "incident-response",
+    "cloud-security",
+    "identity-access-management",
+    "security-audit"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://conscia.com/no/",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/998613353",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 143,
+  "brreg_employees_as_of": "2026-08-12",
+  "founded": "2012-07-09",
+  "former_names": [
+    "PUNDIT NETWORKS AS"
+  ]
+}

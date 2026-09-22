@@ -1,0 +1,45 @@
+{
+  "id": "forvis-mazars",
+  "name": "Forvis Mazars",
+  "legal_name": "FORVIS MAZARS AS",
+  "website": "https://www.mazars.no",
+  "category": "norwegian",
+  "org_nr": "979605994",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.mazars.no",
+  "specialty": "Audit and advisory firm covering information security audits, risk and privacy.",
+  "capabilities": [
+    "security-audit",
+    "compliance",
+    "risk-management",
+    "privacy-gdpr"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.mazars.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/979605994",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 72,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "1998-01-30",
+  "former_names": [
+    "PANNELL KERR FORSTER REVISJON AS",
+    "PKF REVISJON AS",
+    "MAZARS REVISJON AS",
+    "MAZARS AS"
+  ]
+}

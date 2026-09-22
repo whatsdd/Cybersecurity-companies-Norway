@@ -1,0 +1,56 @@
+{
+  "id": "sicra",
+  "name": "Sicra",
+  "legal_name": "SICRA AS",
+  "website": "https://sicra.no",
+  "category": "norwegian",
+  "org_nr": "932538067",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "security_staff": 54,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor.",
+  "brreg_employees": 54,
+  "brreg_employees_as_of": "2026-09-14",
+  "delivery": "in-house",
+  "delivery_source": "https://sicra.no",
+  "specialty": "Norwegian IT operations house with a SOC service for monitoring and response.",
+  "capabilities": [
+    "soc",
+    "incident-response",
+    "cloud-security",
+    "network-security",
+    "compliance"
+  ],
+  "founded": "2023-11-07",
+  "former_names": [
+    "WR START UP 540 AS",
+    "SICRA 2 AS"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://sicra.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/932538067",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+    }
+  ]
+}

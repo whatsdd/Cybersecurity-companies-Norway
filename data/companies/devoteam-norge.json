@@ -1,0 +1,45 @@
+{
+  "id": "devoteam-norge",
+  "name": "Devoteam Norge",
+  "legal_name": "DEVOTEAM AS",
+  "website": "https://www.devoteam.com/no/",
+  "category": "nordic",
+  "org_nr": "980172015",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.devoteam.com/no/",
+  "specialty": "Consultancy with a cyber trust practice: cloud security, identity and compliance.",
+  "capabilities": [
+    "cloud-security",
+    "identity-access-management",
+    "compliance",
+    "security-audit",
+    "security-architecture"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.devoteam.com/no/",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980172015",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees": 75,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "1998-07-01",
+  "former_names": [
+    "FORNEBU MANAGEMENT CONSULTING AS",
+    "FORNEBU CONSULTING AS",
+    "DEVOTEAM FORNEBU CONSULTING AS"
+  ]
+}

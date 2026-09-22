@@ -1,0 +1,51 @@
+{
+  "id": "konfitech",
+  "name": "Konfitech",
+  "legal_name": "KONFITECH AS",
+  "website": "https://www.konfitech.com",
+  "category": "norwegian",
+  "org_nr": "933170535",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "brreg_employees_as_of": "2026-09-14",
+  "delivery": "in-house",
+  "delivery_source": "https://www.konfitech.com",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Small Oslo consultancy offering security assessments and advisory.",
+  "capabilities": [
+    "security-audit",
+    "vulnerability-assessment",
+    "compliance",
+    "risk-management"
+  ],
+  "founded": "2024-02-09",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/933170535",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.konfitech.com",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ]
+}

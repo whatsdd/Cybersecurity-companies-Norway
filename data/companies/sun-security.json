@@ -1,0 +1,42 @@
+{
+  "id": "sun-security",
+  "name": "Sun Security",
+  "legal_name": "SUN SECURITY AS",
+  "website": "https://www.sunsecurity.no",
+  "category": "norwegian",
+  "org_nr": "929371585",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.sunsecurity.no",
+  "specialty": "Architecture and assessment specialist: system design, risk assessment and security audit.",
+  "capabilities": [
+    "security-architecture",
+    "risk-management",
+    "security-audit",
+    "vulnerability-assessment",
+    "compliance"
+  ],
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.sunsecurity.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929371585",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "brreg_employees_as_of": "2024-11-16",
+  "founded": "2022-05-04",
+  "former_names": [
+    "ISACHSEN HOLDING AS"
+  ]
+}

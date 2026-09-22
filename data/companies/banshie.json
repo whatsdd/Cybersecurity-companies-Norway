@@ -1,0 +1,68 @@
+{
+  "id": "banshie",
+  "name": "Truesec",
+  "legal_name": "TRUESEC NORWAY AS",
+  "website": "https://www.truesec.com",
+  "category": "nordic",
+  "org_nr": "930577294",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.truesec.com",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Swedish security house whose Norwegian arm covers testing, incident response and MDR.",
+  "capabilities": [
+    "penetration-testing",
+    "red-teaming",
+    "incident-response",
+    "soc",
+    "threat-intelligence",
+    "digital-forensics",
+    "ot-ics-security",
+    "security-training"
+  ],
+  "notes": "Truesec, a Nordic cybersecurity company, acquired Banshie in June 2025. Banshie was a Danish specialist in penetration testing, red teaming and ethical hacking, so it is listed as Nordic rather than Norwegian. The Norwegian presence is now Truesec Norway AS (org.nr 930577294, Oslo); that entity is the acquirer, so its founding date is not Banshie's.",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://www.truesec.com",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://www.truesec.com/who-we-are",
+      "type": "news",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://www.mainsights.io/ma-news/ik-partners-backed-truesec-acquires-danish-cybersecurity-firm-banshie",
+      "type": "news",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/930577294",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "founded": "2022-12-14",
+  "former_names": [
+    "ATHOMSTART INVEST 791 AS"
+  ]
+}

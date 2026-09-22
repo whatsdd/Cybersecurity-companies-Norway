@@ -1,0 +1,162 @@
+name: Add a company
+description: Suggest a cybersecurity or information security provider that should be on the list
+title: "Add company: "
+labels: ["new company"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding a company. **Every number needs a source URL**: a row with no evidence
+        cannot be merged, because the value of this list is that its facts can be checked.
+
+        If you know the company belongs on the list but cannot verify the details, that is still
+        useful: submit it and answer "I could not find this" where that is the case. A clearly
+        labelled unknown beats a guess.
+
+  - type: input
+    id: name
+    attributes:
+      label: Company name
+      description: The name customers know it by.
+      placeholder: Example Security AS
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: https://example.no
+    validations:
+      required: false
+
+  - type: input
+    id: org_nr
+    attributes:
+      label: Norwegian organisation number (org.nr), if there is one
+      description: |
+        Nine digits. Look it up at
+        https://data.brreg.no/enhetsregisteret/api/enheter?navn=Example%20Security
+        Check that the match is really the same company: the registry's name search is fuzzy.
+      placeholder: "999999999"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: office
+    attributes:
+      label: Does it have an office in Norway?
+      description: "Yes requires a registered Norwegian entity or a Norwegian address published by the company. 'No' only means no Norwegian entity was found."
+      options:
+        - "Yes: registered Norwegian entity or published Norwegian address"
+        - "No: no Norwegian entity found"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: input
+    id: cities
+    attributes:
+      label: Norwegian cities, if any
+      placeholder: Oslo, Bergen
+    validations:
+      required: false
+
+  - type: input
+    id: staff
+    attributes:
+      label: In-house security staff, and where that figure comes from
+      description: |
+        The number of cybersecurity people on the company's own payroll, and the URL. Only if the
+        company publishes a count or you can vouch for it first-hand: most do not publish one, so
+        leaving this empty is normal. A registry headcount is not a security staff count, and the
+        build refuses it as one.
+      placeholder: "12, https://example.no/om-oss"
+    validations:
+      required: false
+
+  - type: input
+    id: employees
+    attributes:
+      label: Employees (whole company), and where that figure comes from
+      description: "Give the number and the URL. This is a whole-company headcount, not a security staff count."
+      placeholder: "170, https://example.no/om-oss"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: delivery
+    attributes:
+      label: How is the Norwegian work delivered?
+      description: |
+        This is the column that separates a provider from a reseller: a services page looks the same
+        either way. Say how you know in the evidence field below.
+      options:
+        - "In-house: the company's own employees do the work"
+        - "Mixed: mostly own staff, with subcontractors for peaks or specialisms"
+        - "Partner network: no real delivery team here, the work is resold or subcontracted"
+        - "Not established"
+    validations:
+      required: true
+
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: Capability tags
+      description: |
+        Pick from this list, one per line, and only what the company itself publishes. Grouped for
+        reading only: penetration-testing, red-teaming, purple-teaming, social-engineering,
+        vulnerability-assessment, vulnerability-management, automated-pentesting,
+        attack-surface-management, bug-bounty-platform, crowdsourced-testing, physical-security,
+        crypto-blockchain-audit, application-security, api-security, mobile-security, code-review,
+        secure-development, devsecops, security-architecture, soc, incident-response,
+        threat-intelligence, threat-hunting, digital-forensics, malware-analysis, endpoint-security,
+        network-security, email-security, identity-access-management, pki, data-security,
+        backup-recovery, cloud-security, ot-ics-security, iot-security, container-security,
+        security-audit, compliance, risk-management, privacy-gdpr, nis2-dora, vciso, security-training,
+        awareness-training, tabletop-exercises.
+      placeholder: |
+        penetration-testing
+        incident-response
+    validations:
+      required: true
+
+  - type: input
+    id: specialty
+    attributes:
+      label: Speciality, in one factual line
+      description: What is this company actually known for? Plain language, no marketing.
+      placeholder: "OT security specialist for industry and energy"
+    validations:
+      required: false
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: One URL per line, and say which claim each source supports.
+      placeholder: |
+        https://example.no/om-oss (headcount, staff count and capabilities)
+        https://data.brreg.no/enhetsregisteret/api/enheter/999999999 (registration and address)
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Renames, acquisitions, current names, or anything a reader needs to interpret the entry.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you connected to this company?
+      description: Working for or with the company is fine: it just has to be visible.
+      options:
+        - "No"
+        - "Yes: I work for or with this company"
+        - "Yes: I am a customer or partner"
+    validations:
+      required: true

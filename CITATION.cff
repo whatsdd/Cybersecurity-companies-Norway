@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below. It began as a blog list of penetration testing companies by Ahmad Abdur Rehman in 2023."
+title: "Cybersecurity and information security companies in Norway"
+abstract: >-
+  A verified, community-maintained directory of companies that sell cybersecurity
+  and information security work to customers in Norway: penetration testing, red
+  teaming and security assessment, SOC and incident response, cloud and OT
+  security, identity, forensics, governance, privacy and training. Each entry
+  records whether the provider has a registered Norwegian presence, how the
+  Norwegian work is delivered and whether that is in-house or resold, the
+  in-house security staff count with the basis for the claim (published,
+  attested, estimated or a researcher crowd), the capability tags the company
+  publishes, its Norwegian organisasjonsnummer, and the sources behind every
+  figure. Started in 2023 by Ahmad Abdur Rehman as a list of penetration testing
+  companies and widened in 2026.
+authors:
+  - family-names: "Abdur Rehman"
+    given-names: "Ahmad"
+    website: "https://ahmad.science/"
+    alias: "whatsdd"
+type: dataset
+version: "2026.1"
+date-released: "2026-09-22"
+license: CC-BY-4.0
+repository-code: "https://github.com/whatsdd/Cybersecurity-companies-Norway"
+url: "https://whatsdd.github.io/Cybersecurity-companies-Norway/"
+keywords:
+  - cybersecurity
+  - information security
+  - Norway
+  - security vendors
+  - penetration testing
+  - red teaming
+  - incident response
+  - SOC
+  - OT security
+  - procurement
+  - open data
+preferred-citation:
+  type: dataset
+  title: "Cybersecurity and information security companies in Norway"
+  authors:
+    - family-names: "Abdur Rehman"
+      given-names: "Ahmad"
+      website: "https://ahmad.science/"
+  doi: ""
+  year: 2026
+  url: "https://github.com/whatsdd/Cybersecurity-companies-Norway"
+references:
+  - type: dataset
+    title: "Penetration testing and security testing companies in Norway"
+    authors:
+      - family-names: "Abdur Rehman"
+        given-names: "Ahmad"
+        website: "https://ahmad.science/"
+    year: 2026
+    url: "https://github.com/whatsdd/Pentest-companies-Norway"
+  - type: article
+    title: "50+ selskaper som tilbyr sikkerhetstesting (pentest) i Norge - 2025-utgaven"
+    authors:
+      - family-names: "Abdur Rehman"
+        given-names: "Ahmad"
+        website: "https://ahmad.science/"
+    year: 2025
+    url: "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/"
+  - type: article
+    title: "39 Pentest Firma i Norge tilbyr Sikkerhetstesting / Inntrengingstesting"
+    authors:
+      - family-names: "Abdur Rehman"
+        given-names: "Ahmad"
+        website: "https://ahmad.science/"
+    year: 2023
+    url: "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/"

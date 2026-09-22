@@ -1,0 +1,72 @@
+{
+  "id": "teknograd",
+  "name": "Upheads",
+  "legal_name": "UPHEADS AS",
+  "website": "https://upheads.no",
+  "category": "norwegian",
+  "org_nr": "980893936",
+  "office_in_norway": true,
+  "office_cities": [
+    "Sandnes"
+  ],
+  "employees_total": 400,
+  "employees_source": "https://upheads.no",
+  "employees_note": "group-wide: over 400 employees across Upheads",
+  "employees_as_of": "2026-09-22",
+  "brreg_employees": 277,
+  "brreg_employees_as_of": "2026-09-14",
+  "delivery": "in-house",
+  "delivery_source": "https://upheads.no",
+  "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+  "specialty": "Managed IT and security provider running its own SOC for Norwegian and Nordic customers.",
+  "capabilities": [
+    "soc",
+    "incident-response",
+    "network-security",
+    "endpoint-security",
+    "backup-recovery",
+    "compliance",
+    "awareness-training"
+  ],
+  "certifications": [
+    "ISO 27001"
+  ],
+  "notes": "Acquired by Upheads in December 2022 and now part of Upheads AS (org.nr 980893936, Sandnes), a Norwegian IT and security provider. The pinned org.nr is Upheads (the acquirer), so its founding date and prior names are not Teknograd's. Listed as Teknograd in the pentest editions; Teknograd was acquired by Upheads in December 2022 and the Norwegian entity is Upheads AS.",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "2025 edition of the list this directory is based on"
+    },
+    {
+      "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+      "type": "seed-list",
+      "checked": "2026-09-22",
+      "note": "original 2023 edition"
+    },
+    {
+      "url": "https://upheads.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://www.cw.no/it-bransjen-smb-upheads/upheads-kjoper-teknograd/2116919",
+      "type": "news",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/980893936",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "founded": "1999-05-03",
+  "former_names": [
+    "NETPOWER IKT AS",
+    "NETPOWER CONSULTING AS"
+  ]
+}

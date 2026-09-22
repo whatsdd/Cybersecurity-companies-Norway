@@ -1,0 +1,32 @@
+{
+  "id": "ncc-group",
+  "name": "NCC Group",
+  "website": "https://www.nccgroup.com",
+  "category": "international",
+  "office_in_norway": false,
+  "office_cities": [],
+  "delivery": "in-house",
+  "delivery_source": "https://www.nccgroup.com",
+  "delivery_note": "Recorded from the company's own description of how it staffs the work.",
+  "specialty": "Global assurance and testing group used by Norwegian buyers for penetration testing and audits.",
+  "capabilities": [
+    "penetration-testing",
+    "red-teaming",
+    "vulnerability-assessment",
+    "security-audit",
+    "incident-response",
+    "crypto-blockchain-audit",
+    "security-training"
+  ],
+  "notes": "No Norwegian entity was found; the group serves Norwegian customers from its UK and Nordic offices. The pentest editions listed it among the international providers.",
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.nccgroup.com",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    }
+  ]
+}

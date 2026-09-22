@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How this list is maintained
+    url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md
+    about: What every column means, how figures are verified, and the rules on disputes, removal and neutrality.
+  - name: How to contribute
+    url: https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/CONTRIBUTING.md
+    about: Adding a company by hand, finding the Norwegian entity, capability tags, and the rules CI enforces.
+  - name: Check a Norwegian company registration
+    url: https://data.brreg.no/enhetsregisteret/api/docs/index.html
+    about: Enhetsregisteret, the open Norwegian register of legal entities, where org numbers and registry headcounts come from.
+  - name: The original lists by Ahmad Abdur Rehman
+    url: https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/
+    about: The 2023 and 2025 blog editions of the pentest list this dataset grew out of.

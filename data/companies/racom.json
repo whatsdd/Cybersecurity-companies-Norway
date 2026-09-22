@@ -1,0 +1,41 @@
+{
+  "id": "racom",
+  "name": "Racom",
+  "legal_name": "RACOM AS",
+  "website": "https://www.racom.no",
+  "category": "norwegian",
+  "org_nr": "954537900",
+  "office_cities": [
+    "Oslo"
+  ],
+  "specialty": "High-security systems integrator for crisis management and secure communications.",
+  "capabilities": [
+    "security-architecture",
+    "physical-security",
+    "network-security",
+    "compliance"
+  ],
+  "delivery": "in-house",
+  "office_in_norway": true,
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.racom.no",
+      "type": "company-site",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/954537900",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "delivery_source": "https://www.racom.no",
+  "delivery_note": "Recorded from the company's own description of how it staffs the work.",
+  "notes": "Added in the wider cybersecurity pass; the security practice is checked against the company's own service pages, so some capability tags may need confirming.",
+  "brreg_employees": 5,
+  "brreg_employees_as_of": "2026-08-12",
+  "founded": "1989-06-15"
+}
