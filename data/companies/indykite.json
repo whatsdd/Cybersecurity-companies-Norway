@@ -1,0 +1,52 @@
+{
+  "id": "indykite",
+  "name": "IndyKite",
+  "legal_name": "INDYKITE NORWAY AS",
+  "website": "https://www.indykite.com/",
+  "category": "international",
+  "org_nr": "926277340",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.indykite.com/",
+  "delivery_note": "The platform and its engineering are the company's own; the Norwegian entity is the group's development and delivery company.",
+  "specialty": "Identity and authorisation platform that controls what people, services and AI agents are allowed to reach at runtime.",
+  "capabilities": [
+    "identity-access-management",
+    "ai-security"
+  ],
+  "security_staff": 9,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
+  "founded": "2020-12-09",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.indykite.com/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Publishes a runtime control layer for AI agents and enterprise identity and authorisation, with context and policy decisions applied at request time"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926277340",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer; not published by the company."
+    }
+  ],
+  "notes": "A platform company with its engineering company in Oslo and the brand run from outside Norway, which is why it is grouped as international while the Norwegian entity is the one pinned. Identity and authorisation is the whole product, so the entity's registry headcount is usable as a guarded estimate.",
+  "brreg_employees": 9,
+  "brreg_employees_as_of": "2026-03-11"
+}

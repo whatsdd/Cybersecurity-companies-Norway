@@ -1,7 +1,7 @@
 {
   "generated": "2026-09-22",
   "last_verified": "2026-09-22",
-  "count": 78,
+  "count": 87,
   "license": "CC BY 4.0",
   "attribution": "Started in 2023 by Ahmad Abdur Rehman (https://ahmad.science/, https://www.linkedin.com/in/ahmadscience/) as a list of penetration testing companies in Norway. Continued as an open dataset covering cybersecurity and information security companies.",
   "source_repository": "https://github.com/whatsdd/Cybersecurity-companies-Norway",
@@ -650,6 +650,69 @@
       ]
     },
     {
+      "id": "gritera",
+      "name": "Gritera Security",
+      "legal_name": "GRITERA SECURITY AS",
+      "website": "https://gritera.com/",
+      "category": "norwegian",
+      "org_nr": "832332402",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://gritera.com/en/about-us/",
+      "delivery_note": "The company describes its own advisers as the ones doing the work, and names them on the service pages.",
+      "specialty": "Information security advisory house: security governance and GRC, identity and access management, technical security, and crisis management.",
+      "capabilities": [
+        "risk-management",
+        "compliance",
+        "nis2-dora",
+        "identity-access-management",
+        "security-architecture",
+        "crisis-management"
+      ],
+      "security_staff": 31,
+      "security_staff_basis": "estimate",
+      "security_staff_is_minimum": true,
+      "security_staff_scope": "whole-company",
+      "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "security_staff_note": "In-house security staff: 31 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, whose registered purpose is information security services only, so the whole payroll is security work.",
+      "founded": "2023-10-04",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://gritera.com/en/services/information-security/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Publishes service lines for governance, risk and compliance with ISO 27001, DORA and NIS2, identity and access management with Zero Trust models, technical security, and crisis management with ISO 22301"
+        },
+        {
+          "url": "https://gritera.com/en/about-us/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Describes Gritera Security as the group's information security practice"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/832332402",
+          "type": "registry",
+          "checked": "2026-09-22",
+          "note": "Registered purpose: services related to information security, including IT governance and cyber security"
+        },
+        {
+          "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+          "type": "estimate",
+          "checked": "2026-09-22",
+          "note": "In-house security staff: 31 or more. Guarded estimate by the list maintainer; not published by the company."
+        }
+      ],
+      "notes": "Part of the Gritera group, alongside Gritera Advisory, Analytics and Quality; this is the entity that sells the security work, which is what makes its registry headcount usable as a guarded estimate.",
+      "brreg_employees": 31,
+      "brreg_employees_as_of": "2026-09-14"
+    },
+    {
       "id": "ivolv",
       "name": "Ivolv",
       "legal_name": "IVOLV AS",
@@ -1116,6 +1179,64 @@
       ]
     },
     {
+      "id": "bsure",
+      "name": "Bsure",
+      "legal_name": "BSURE AS",
+      "website": "https://www.bsure.io/",
+      "category": "norwegian",
+      "org_nr": "929419766",
+      "office_in_norway": true,
+      "office_cities": [
+        "Asker"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://www.bsure.io/about-us",
+      "delivery_note": "The company builds and operates its own platform from Norway and defines its delivery as the platform itself, run read-only inside the customer's own subscription.",
+      "specialty": "Identity visibility for Microsoft Entra ID and Microsoft 365: every identity, what it can reach, and who is answerable for it.",
+      "capabilities": [
+        "identity-access-management",
+        "compliance"
+      ],
+      "security_staff": 13,
+      "security_staff_basis": "estimate",
+      "security_staff_is_minimum": true,
+      "security_staff_scope": "whole-company",
+      "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "security_staff_note": "In-house security staff: 13 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
+      "founded": "2022-05-03",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://www.bsure.io/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Publishes identity visibility and risk scoring for Microsoft Entra ID, including access reach, compliance risk and unused licences"
+        },
+        {
+          "url": "https://www.bsure.io/about-us",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Founded in Norway in 2022; the platform runs in the customer's own subscription"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929419766",
+          "type": "registry",
+          "checked": "2026-09-22"
+        },
+        {
+          "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+          "type": "estimate",
+          "checked": "2026-09-22",
+          "note": "In-house security staff: 13 or more. Guarded estimate by the list maintainer; not published by the company."
+        }
+      ],
+      "notes": "A Norwegian platform company rather than a consultancy: the delivery is software the customer runs, not consultants on site, and it is listed because identity visibility is the whole product rather than a feature of something else. Its own team builds, sells and supports it, and the entity is a security-only business, which is what makes the guarded estimate applicable.",
+      "brreg_employees": 13,
+      "brreg_employees_as_of": "2026-05-11"
+    },
+    {
       "id": "fencenordic",
       "name": "Fencenordic",
       "legal_name": "FENCE AS",
@@ -1368,6 +1489,116 @@
           "checked": "2026-09-22",
           "note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
         }
+      ]
+    },
+    {
+      "id": "indykite",
+      "name": "IndyKite",
+      "legal_name": "INDYKITE NORWAY AS",
+      "website": "https://www.indykite.com/",
+      "category": "international",
+      "org_nr": "926277340",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://www.indykite.com/",
+      "delivery_note": "The platform and its engineering are the company's own; the Norwegian entity is the group's development and delivery company.",
+      "specialty": "Identity and authorisation platform that controls what people, services and AI agents are allowed to reach at runtime.",
+      "capabilities": [
+        "identity-access-management",
+        "ai-security"
+      ],
+      "security_staff": 9,
+      "security_staff_basis": "estimate",
+      "security_staff_is_minimum": true,
+      "security_staff_scope": "whole-company",
+      "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "security_staff_note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
+      "founded": "2020-12-09",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://www.indykite.com/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Publishes a runtime control layer for AI agents and enterprise identity and authorisation, with context and policy decisions applied at request time"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/926277340",
+          "type": "registry",
+          "checked": "2026-09-22"
+        },
+        {
+          "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+          "type": "estimate",
+          "checked": "2026-09-22",
+          "note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer; not published by the company."
+        }
+      ],
+      "notes": "A platform company with its engineering company in Oslo and the brand run from outside Norway, which is why it is grouped as international while the Norwegian entity is the one pinned. Identity and authorisation is the whole product, so the entity's registry headcount is usable as a guarded estimate.",
+      "brreg_employees": 9,
+      "brreg_employees_as_of": "2026-03-11"
+    },
+    {
+      "id": "junglemap",
+      "name": "Junglemap",
+      "legal_name": "JUNGLEMAP AS",
+      "website": "https://www.junglemap.no/",
+      "category": "nordic",
+      "org_nr": "984590423",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://www.junglemap.no/",
+      "delivery_note": "The Norwegian company delivers its own awareness courses and runs the platform it sells; the group's Swedish parent does not deliver the Norwegian work.",
+      "specialty": "Security awareness house: short recurring courses on cyber security, privacy, NIS2 and secure coding, with phishing simulations.",
+      "capabilities": [
+        "awareness-training",
+        "security-training",
+        "privacy-gdpr",
+        "nis2-dora"
+      ],
+      "security_staff": 9,
+      "security_staff_basis": "estimate",
+      "security_staff_is_minimum": true,
+      "security_staff_scope": "whole-company",
+      "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "security_staff_note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
+      "founded": "2002-05-10",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://www.junglemap.no/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Publishes courses in cyber security, privacy and GDPR, the NIS2 directive, secure coding with OWASP, and phishing simulations on its platform"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984590423",
+          "type": "registry",
+          "checked": "2026-09-22"
+        },
+        {
+          "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+          "type": "estimate",
+          "checked": "2026-09-22",
+          "note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer; not published by the company."
+        }
+      ],
+      "notes": "Awareness training is the whole business, so the Norwegian entity's registry headcount is usable as a guarded estimate. The brand belongs to the Swedish group Junglemap AB; this row is the Norwegian company that sells and supports it here, and it is grouped as nordic for that reason.",
+      "brreg_employees": 9,
+      "brreg_employees_as_of": "2026-07-15",
+      "former_names": [
+        "JUNGLEMAP AS",
+        "NKI JUNGLEMAP AS"
       ]
     },
     {
@@ -1683,7 +1914,7 @@
       "id": "nixu-dnv",
       "name": "DNV Cyber",
       "legal_name": "DNV AS",
-      "website": "https://www.nixu.com",
+      "website": "https://www.dnv.com/cyber/",
       "category": "nordic",
       "org_nr": "945748931",
       "office_in_norway": true,
@@ -1691,9 +1922,9 @@
         "Høvik"
       ],
       "delivery": "in-house",
-      "delivery_source": "https://www.nixu.com",
+      "delivery_source": "https://www.dnv.com/cyber/services/",
       "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
-      "specialty": "DNV's cyber security unit, which absorbed Nixu: testing, OT security and certification.",
+      "specialty": "DNV Cyber, which absorbed the Nixu consultancy: IT and OT cyber security services, risk and regulatory work for industry, maritime, energy and defence.",
       "capabilities": [
         "penetration-testing",
         "vulnerability-assessment",
@@ -1704,8 +1935,8 @@
         "compliance",
         "security-training"
       ],
-      "notes": "Listed as \"Nixu / DNV\". Nixu is headquartered in Finland and was acquired by DNV, which is Norwegian-headquartered (DNV AS, org.nr 945748931, Hovik). The Nixu Norway AS entity referenced in the 2023 edition no longer resolves in the registry, so the current legal entity for the cyber business needs confirming. Nixu, the Finnish security consultancy acquired by DNV, no longer has a Norwegian entity; the Norwegian cyber business sits in DNV AS, which is Norwegian-headquartered.",
-      "verification": "partial",
+      "notes": "Reported to the list as DNV Cyber AS, and there is no such entity: the cyber business sits in DNV AS (org.nr 945748931, Høvik), which is Norwegian-headquartered, while the brand DNV Cyber was formed when DNV absorbed the Finnish consultancy Nixu. The Nixu Norway AS entity from the 2023 edition no longer resolves in the registry, so DNV AS is the entity pinned here.",
+      "verification": "verified",
       "last_verified": "2026-09-22",
       "verified_by": "@whatsdd",
       "sources": [
@@ -1722,9 +1953,16 @@
           "note": "original 2023 edition"
         },
         {
-          "url": "https://www.nixu.com",
+          "url": "https://www.dnv.com/cyber/services/",
           "type": "company-site",
-          "checked": "2026-09-22"
+          "checked": "2026-09-22",
+          "note": "Publishes IT and OT cyber security services, risk identification and prioritisation, and regulatory guidance"
+        },
+        {
+          "url": "https://www.dnv.com/cyber/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "DNV Cyber as the group's cyber security business, including national security and defence, and maritime cyber security"
         },
         {
           "url": "https://data.brreg.no/enhetsregisteret/api/enheter/945748931",
@@ -2704,6 +2942,57 @@
       ]
     },
     {
+      "id": "softwareone",
+      "name": "SoftwareOne",
+      "legal_name": "SOFTWAREONE AS",
+      "website": "https://www.crayon.no/",
+      "category": "international",
+      "org_nr": "991124810",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://www.crayon.com/our-expertise/cloud-services/managed-security-posture/",
+      "delivery_note": "The security work is described as delivered by the company's own specialists and managed service, not resold.",
+      "specialty": "Software and cloud services group; the Norwegian company trades as Crayon and sells cloud, identity and managed security services alongside software licensing.",
+      "capabilities": [
+        "cloud-security",
+        "identity-access-management",
+        "endpoint-security"
+      ],
+      "founded": "2007-03-29",
+      "verification": "partial",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://www.softwareone.com/en/media-releases/2025/07/02/softwareone-successfully-completes-crayon-transaction",
+          "type": "news",
+          "checked": "2026-09-22",
+          "note": "July 2025: SoftwareOne completed the acquisition of Crayon, and the two companies were combined"
+        },
+        {
+          "url": "https://www.crayon.com/our-expertise/cloud-services/managed-security-posture/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Managed security service built around continuous monitoring and security hardening in cloud environments; the Crayon pages are now frozen and point readers to SoftwareOne"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991124810",
+          "type": "registry",
+          "checked": "2026-09-22"
+        }
+      ],
+      "notes": "Reported to the list as Crayon. Crayon Group was acquired by SoftwareOne in July 2025 and the Norwegian company is now SOFTWAREONE AS, still publishing under the Crayon brand at crayon.no. The row is partial because SoftwareOne's own service pages sit behind a bot filter and the Crayon pages are frozen, so the Norwegian security service list comes from those frozen pages and the merger announcement rather than a current page.",
+      "brreg_employees": 339,
+      "brreg_employees_as_of": "2026-09-14",
+      "former_names": [
+        "CRAYON NORGE AS",
+        "CRAYON AS"
+      ]
+    },
+    {
       "id": "computas",
       "name": "Computas",
       "legal_name": "COMPUTAS AS",
@@ -3434,6 +3723,101 @@
       ]
     },
     {
+      "id": "blinq",
+      "name": "blinQ",
+      "legal_name": "BLINQ AS",
+      "website": "https://blinq.no/",
+      "category": "norwegian",
+      "org_nr": "915902170",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://blinq.no/tjenester/",
+      "delivery_note": "The company sells its own consultants' work, organised as service lines under one house; no subcontracting or resale is described.",
+      "specialty": "IT consultancy with a security and compliance line covering NIS2, DORA and the Norwegian digital security act, from policy and routines to technical measures.",
+      "capabilities": [
+        "nis2-dora",
+        "compliance",
+        "security-architecture"
+      ],
+      "founded": "2015-09-02",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://blinq.no/tjenester/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Publishes a security and compliance service line: advice, routines, policies and technical measures for NIS2, DORA and the Norwegian digital security act"
+        },
+        {
+          "url": "https://blinq.no/blinq-er-iso-sertifisert-for-kvalitet-og-informasjonssikkerhet/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "States certification to ISO 9001 and ISO/IEC 27001"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915902170",
+          "type": "registry",
+          "checked": "2026-09-22"
+        }
+      ],
+      "notes": "A broad IT house (Oslo, Bergen and Trondheim) with security as one service line among cloud, network and Microsoft 365 work, so no staff estimate is recorded; reported to the list as a cybersecurity company.",
+      "brreg_employees": 45,
+      "brreg_employees_as_of": "2026-09-14",
+      "former_names": [
+        "INCEPTUM 913 AS"
+      ]
+    },
+    {
+      "id": "eprovider",
+      "name": "eProvider",
+      "legal_name": "EPROVIDER AS",
+      "website": "https://eprovider.no/",
+      "category": "norwegian",
+      "org_nr": "921809220",
+      "office_in_norway": true,
+      "office_cities": [
+        "Sandnes"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://eprovider.no/tjenester/it-sikkerhet/",
+      "delivery_note": "The security services are described as run by the company's own operations centre and engineers, in Sandnes.",
+      "specialty": "Sandnes IT house running a 24/7 security operations centre, active monitoring and email security for Norwegian businesses and industrial customers.",
+      "capabilities": [
+        "soc",
+        "incident-response",
+        "email-security",
+        "network-security"
+      ],
+      "founded": "2018-11-01",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://eprovider.no/tjenester/it-sikkerhet/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Publishes a SOC service operating 24/7, active security monitoring with immediate response, a cyber security platform and advanced email security"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/921809220",
+          "type": "registry",
+          "checked": "2026-09-22"
+        }
+      ],
+      "notes": "An IT operations and support house whose security line is a substantial, separately published part of the business; the registered industry code is data processing and hosting, not security only, so no staff estimate is recorded.",
+      "brreg_employees": 17,
+      "brreg_employees_as_of": "2026-08-12",
+      "former_names": [
+        "E-PROVIDER AS"
+      ]
+    },
+    {
       "id": "knowit-secure",
       "name": "Knowit Cybersecurity & Law",
       "legal_name": "KNOWIT CYBERSECURITY & LAW AS",
@@ -3705,6 +4089,47 @@
       "founded": "2014-09-03"
     },
     {
+      "id": "devtec-norway",
+      "name": "Devtec Norway",
+      "legal_name": "DEVTEC NORWAY AS",
+      "website": "https://www.devtec.no/",
+      "category": "norwegian",
+      "org_nr": "920015042",
+      "office_in_norway": true,
+      "office_cities": [
+        "Moss"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://www.devtec.no/",
+      "delivery_note": "The company describes itself as a consultancy and software house doing the identity work with its own people.",
+      "specialty": "Consultancy and software house specialising in identity and access management.",
+      "capabilities": [
+        "identity-access-management"
+      ],
+      "founded": "2017-11-13",
+      "verification": "partial",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://www.devtec.no/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Published description: a consultancy and software house with specialist competence in identity and access management (IAM/IDM)"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920015042",
+          "type": "registry",
+          "checked": "2026-09-22"
+        }
+      ],
+      "notes": "The site is a single-page application whose pages could not be read beyond the published description and page title, so the row is partial: the identity and access management specialisation is confirmed, a fuller service list and any staff figure are not. Reported to the list as a cybersecurity company.",
+      "brreg_employees_as_of": "2025-04-12",
+      "former_names": [
+        "NORDIC IDENTITY SOLUTIONS AS"
+      ]
+    },
+    {
       "id": "easywave",
       "name": "Easywave",
       "legal_name": "EASYWAVE AS",
@@ -3967,6 +4392,47 @@
           "checked": "2026-09-22"
         }
       ]
+    },
+    {
+      "id": "storm-it-sikkerhet",
+      "name": "Storm IT Sikkerhet",
+      "legal_name": "STORM IT SIKKERHET AS",
+      "website": "https://www.stormitsikkerhet.no/",
+      "category": "norwegian",
+      "org_nr": "935794315",
+      "office_in_norway": true,
+      "office_cities": [
+        "Gjøvik"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://www.stormitsikkerhet.no/",
+      "delivery_note": "A one-office consultancy selling its own advisers' time; the site names the adviser and his certifications.",
+      "specialty": "Gjøvik consultancy giving small and mid-sized businesses IT security advice, ISO 27001 based maturity work, risk assessments and vulnerability discovery.",
+      "capabilities": [
+        "risk-management",
+        "compliance",
+        "vulnerability-assessment",
+        "security-training"
+      ],
+      "founded": "2025-06-22",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://www.stormitsikkerhet.no/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Publishes maturity assessment against ISO 27001, risk assessments, supplier risk assessment, vulnerability discovery, cyber security measures and named adviser certifications (CISSP, ISO 27001 lead implementer, ISO 27005 risk manager)"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935794315",
+          "type": "registry",
+          "checked": "2026-09-22"
+        }
+      ],
+      "notes": "A new and very small company: the registry has no employee figure and directory listings put it at one to four people, so the in-house security staff column stays ??. Its registered purpose covers IT work as well as IT security, which would rule out a guarded estimate even if a headcount existed.",
+      "brreg_employees_as_of": "2026-04-13"
     },
     {
       "id": "sun-security",

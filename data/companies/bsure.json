@@ -1,0 +1,58 @@
+{
+  "id": "bsure",
+  "name": "Bsure",
+  "legal_name": "BSURE AS",
+  "website": "https://www.bsure.io/",
+  "category": "norwegian",
+  "org_nr": "929419766",
+  "office_in_norway": true,
+  "office_cities": [
+    "Asker"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.bsure.io/about-us",
+  "delivery_note": "The company builds and operates its own platform from Norway and defines its delivery as the platform itself, run read-only inside the customer's own subscription.",
+  "specialty": "Identity visibility for Microsoft Entra ID and Microsoft 365: every identity, what it can reach, and who is answerable for it.",
+  "capabilities": [
+    "identity-access-management",
+    "compliance"
+  ],
+  "security_staff": 13,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "In-house security staff: 13 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
+  "founded": "2022-05-03",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.bsure.io/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Publishes identity visibility and risk scoring for Microsoft Entra ID, including access reach, compliance risk and unused licences"
+    },
+    {
+      "url": "https://www.bsure.io/about-us",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Founded in Norway in 2022; the platform runs in the customer's own subscription"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929419766",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "In-house security staff: 13 or more. Guarded estimate by the list maintainer; not published by the company."
+    }
+  ],
+  "notes": "A Norwegian platform company rather than a consultancy: the delivery is software the customer runs, not consultants on site, and it is listed because identity visibility is the whole product rather than a feature of something else. Its own team builds, sells and supports it, and the entity is a security-only business, which is what makes the guarded estimate applicable.",
+  "brreg_employees": 13,
+  "brreg_employees_as_of": "2026-05-11"
+}

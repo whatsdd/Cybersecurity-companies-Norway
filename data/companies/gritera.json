@@ -1,0 +1,63 @@
+{
+  "id": "gritera",
+  "name": "Gritera Security",
+  "legal_name": "GRITERA SECURITY AS",
+  "website": "https://gritera.com/",
+  "category": "norwegian",
+  "org_nr": "832332402",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://gritera.com/en/about-us/",
+  "delivery_note": "The company describes its own advisers as the ones doing the work, and names them on the service pages.",
+  "specialty": "Information security advisory house: security governance and GRC, identity and access management, technical security, and crisis management.",
+  "capabilities": [
+    "risk-management",
+    "compliance",
+    "nis2-dora",
+    "identity-access-management",
+    "security-architecture",
+    "crisis-management"
+  ],
+  "security_staff": 31,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "In-house security staff: 31 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, whose registered purpose is information security services only, so the whole payroll is security work.",
+  "founded": "2023-10-04",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://gritera.com/en/services/information-security/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Publishes service lines for governance, risk and compliance with ISO 27001, DORA and NIS2, identity and access management with Zero Trust models, technical security, and crisis management with ISO 22301"
+    },
+    {
+      "url": "https://gritera.com/en/about-us/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Describes Gritera Security as the group's information security practice"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/832332402",
+      "type": "registry",
+      "checked": "2026-09-22",
+      "note": "Registered purpose: services related to information security, including IT governance and cyber security"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "In-house security staff: 31 or more. Guarded estimate by the list maintainer; not published by the company."
+    }
+  ],
+  "notes": "Part of the Gritera group, alongside Gritera Advisory, Analytics and Quality; this is the entity that sells the security work, which is what makes its registry headcount usable as a guarded estimate.",
+  "brreg_employees": 31,
+  "brreg_employees_as_of": "2026-09-14"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "storm-it-sikkerhet",
+  "name": "Storm IT Sikkerhet",
+  "legal_name": "STORM IT SIKKERHET AS",
+  "website": "https://www.stormitsikkerhet.no/",
+  "category": "norwegian",
+  "org_nr": "935794315",
+  "office_in_norway": true,
+  "office_cities": [
+    "Gjøvik"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.stormitsikkerhet.no/",
+  "delivery_note": "A one-office consultancy selling its own advisers' time; the site names the adviser and his certifications.",
+  "specialty": "Gjøvik consultancy giving small and mid-sized businesses IT security advice, ISO 27001 based maturity work, risk assessments and vulnerability discovery.",
+  "capabilities": [
+    "risk-management",
+    "compliance",
+    "vulnerability-assessment",
+    "security-training"
+  ],
+  "founded": "2025-06-22",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.stormitsikkerhet.no/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Publishes maturity assessment against ISO 27001, risk assessments, supplier risk assessment, vulnerability discovery, cyber security measures and named adviser certifications (CISSP, ISO 27001 lead implementer, ISO 27005 risk manager)"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/935794315",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "notes": "A new and very small company: the registry has no employee figure and directory listings put it at one to four people, so the in-house security staff column stays ??. Its registered purpose covers IT work as well as IT security, which would rule out a guarded estimate even if a headcount existed.",
+  "brreg_employees_as_of": "2026-04-13"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "devtec-norway",
+  "name": "Devtec Norway",
+  "legal_name": "DEVTEC NORWAY AS",
+  "website": "https://www.devtec.no/",
+  "category": "norwegian",
+  "org_nr": "920015042",
+  "office_in_norway": true,
+  "office_cities": [
+    "Moss"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.devtec.no/",
+  "delivery_note": "The company describes itself as a consultancy and software house doing the identity work with its own people.",
+  "specialty": "Consultancy and software house specialising in identity and access management.",
+  "capabilities": [
+    "identity-access-management"
+  ],
+  "founded": "2017-11-13",
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.devtec.no/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Published description: a consultancy and software house with specialist competence in identity and access management (IAM/IDM)"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/920015042",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "notes": "The site is a single-page application whose pages could not be read beyond the published description and page title, so the row is partial: the identity and access management specialisation is confirmed, a fuller service list and any staff figure are not. Reported to the list as a cybersecurity company.",
+  "brreg_employees_as_of": "2025-04-12",
+  "former_names": [
+    "NORDIC IDENTITY SOLUTIONS AS"
+  ]
+}

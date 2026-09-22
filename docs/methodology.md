@@ -36,7 +36,9 @@ maintaining the narrower list showed how much of the market it left out.
   substitute for it.
 - **Not a product catalogue.** Companies whose Norwegian business is mainly selling licences and
   hardware are out of scope, as are public authorities and sector CERTs. This list is about who does
-  the work.
+  the work. Security product companies are listed when the security capability *is* the product, which is
+  what keeps an awareness or identity platform in and a general GRC or connectivity platform out.
+  When the answer is a platform rather than consultants, `notes` says so.
 
 ### Aggregated data, and AI-assisted tooling
 

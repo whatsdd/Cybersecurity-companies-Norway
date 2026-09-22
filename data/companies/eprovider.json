@@ -1,0 +1,45 @@
+{
+  "id": "eprovider",
+  "name": "eProvider",
+  "legal_name": "EPROVIDER AS",
+  "website": "https://eprovider.no/",
+  "category": "norwegian",
+  "org_nr": "921809220",
+  "office_in_norway": true,
+  "office_cities": [
+    "Sandnes"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://eprovider.no/tjenester/it-sikkerhet/",
+  "delivery_note": "The security services are described as run by the company's own operations centre and engineers, in Sandnes.",
+  "specialty": "Sandnes IT house running a 24/7 security operations centre, active monitoring and email security for Norwegian businesses and industrial customers.",
+  "capabilities": [
+    "soc",
+    "incident-response",
+    "email-security",
+    "network-security"
+  ],
+  "founded": "2018-11-01",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://eprovider.no/tjenester/it-sikkerhet/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Publishes a SOC service operating 24/7, active security monitoring with immediate response, a cyber security platform and advanced email security"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/921809220",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "notes": "An IT operations and support house whose security line is a substantial, separately published part of the business; the registered industry code is data processing and hosting, not security only, so no staff estimate is recorded.",
+  "brreg_employees": 17,
+  "brreg_employees_as_of": "2026-08-12",
+  "former_names": [
+    "E-PROVIDER AS"
+  ]
+}

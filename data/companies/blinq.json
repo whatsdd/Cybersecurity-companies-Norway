@@ -1,0 +1,50 @@
+{
+  "id": "blinq",
+  "name": "blinQ",
+  "legal_name": "BLINQ AS",
+  "website": "https://blinq.no/",
+  "category": "norwegian",
+  "org_nr": "915902170",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://blinq.no/tjenester/",
+  "delivery_note": "The company sells its own consultants' work, organised as service lines under one house; no subcontracting or resale is described.",
+  "specialty": "IT consultancy with a security and compliance line covering NIS2, DORA and the Norwegian digital security act, from policy and routines to technical measures.",
+  "capabilities": [
+    "nis2-dora",
+    "compliance",
+    "security-architecture"
+  ],
+  "founded": "2015-09-02",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://blinq.no/tjenester/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Publishes a security and compliance service line: advice, routines, policies and technical measures for NIS2, DORA and the Norwegian digital security act"
+    },
+    {
+      "url": "https://blinq.no/blinq-er-iso-sertifisert-for-kvalitet-og-informasjonssikkerhet/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "States certification to ISO 9001 and ISO/IEC 27001"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915902170",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "notes": "A broad IT house (Oslo, Bergen and Trondheim) with security as one service line among cloud, network and Microsoft 365 work, so no staff estimate is recorded; reported to the list as a cybersecurity company.",
+  "brreg_employees": 45,
+  "brreg_employees_as_of": "2026-09-14",
+  "former_names": [
+    "INCEPTUM 913 AS"
+  ]
+}

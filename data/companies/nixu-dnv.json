@@ -2,7 +2,7 @@
   "id": "nixu-dnv",
   "name": "DNV Cyber",
   "legal_name": "DNV AS",
-  "website": "https://www.nixu.com",
+  "website": "https://www.dnv.com/cyber/",
   "category": "nordic",
   "org_nr": "945748931",
   "office_in_norway": true,
@@ -10,9 +10,9 @@
     "Høvik"
   ],
   "delivery": "in-house",
-  "delivery_source": "https://www.nixu.com",
+  "delivery_source": "https://www.dnv.com/cyber/services/",
   "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
-  "specialty": "DNV's cyber security unit, which absorbed Nixu: testing, OT security and certification.",
+  "specialty": "DNV Cyber, which absorbed the Nixu consultancy: IT and OT cyber security services, risk and regulatory work for industry, maritime, energy and defence.",
   "capabilities": [
     "penetration-testing",
     "vulnerability-assessment",
@@ -23,8 +23,8 @@
     "compliance",
     "security-training"
   ],
-  "notes": "Listed as \"Nixu / DNV\". Nixu is headquartered in Finland and was acquired by DNV, which is Norwegian-headquartered (DNV AS, org.nr 945748931, Hovik). The Nixu Norway AS entity referenced in the 2023 edition no longer resolves in the registry, so the current legal entity for the cyber business needs confirming. Nixu, the Finnish security consultancy acquired by DNV, no longer has a Norwegian entity; the Norwegian cyber business sits in DNV AS, which is Norwegian-headquartered.",
-  "verification": "partial",
+  "notes": "Reported to the list as DNV Cyber AS, and there is no such entity: the cyber business sits in DNV AS (org.nr 945748931, Høvik), which is Norwegian-headquartered, while the brand DNV Cyber was formed when DNV absorbed the Finnish consultancy Nixu. The Nixu Norway AS entity from the 2023 edition no longer resolves in the registry, so DNV AS is the entity pinned here.",
+  "verification": "verified",
   "last_verified": "2026-09-22",
   "verified_by": "@whatsdd",
   "sources": [
@@ -41,9 +41,16 @@
       "note": "original 2023 edition"
     },
     {
-      "url": "https://www.nixu.com",
+      "url": "https://www.dnv.com/cyber/services/",
       "type": "company-site",
-      "checked": "2026-09-22"
+      "checked": "2026-09-22",
+      "note": "Publishes IT and OT cyber security services, risk identification and prioritisation, and regulatory guidance"
+    },
+    {
+      "url": "https://www.dnv.com/cyber/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "DNV Cyber as the group's cyber security business, including national security and defence, and maritime cyber security"
     },
     {
       "url": "https://data.brreg.no/enhetsregisteret/api/enheter/945748931",

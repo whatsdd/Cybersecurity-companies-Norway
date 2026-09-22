@@ -1,0 +1,51 @@
+{
+  "id": "softwareone",
+  "name": "SoftwareOne",
+  "legal_name": "SOFTWAREONE AS",
+  "website": "https://www.crayon.no/",
+  "category": "international",
+  "org_nr": "991124810",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.crayon.com/our-expertise/cloud-services/managed-security-posture/",
+  "delivery_note": "The security work is described as delivered by the company's own specialists and managed service, not resold.",
+  "specialty": "Software and cloud services group; the Norwegian company trades as Crayon and sells cloud, identity and managed security services alongside software licensing.",
+  "capabilities": [
+    "cloud-security",
+    "identity-access-management",
+    "endpoint-security"
+  ],
+  "founded": "2007-03-29",
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.softwareone.com/en/media-releases/2025/07/02/softwareone-successfully-completes-crayon-transaction",
+      "type": "news",
+      "checked": "2026-09-22",
+      "note": "July 2025: SoftwareOne completed the acquisition of Crayon, and the two companies were combined"
+    },
+    {
+      "url": "https://www.crayon.com/our-expertise/cloud-services/managed-security-posture/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Managed security service built around continuous monitoring and security hardening in cloud environments; the Crayon pages are now frozen and point readers to SoftwareOne"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/991124810",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "notes": "Reported to the list as Crayon. Crayon Group was acquired by SoftwareOne in July 2025 and the Norwegian company is now SOFTWAREONE AS, still publishing under the Crayon brand at crayon.no. The row is partial because SoftwareOne's own service pages sit behind a bot filter and the Crayon pages are frozen, so the Norwegian security service list comes from those frozen pages and the merger announcement rather than a current page.",
+  "brreg_employees": 339,
+  "brreg_employees_as_of": "2026-09-14",
+  "former_names": [
+    "CRAYON NORGE AS",
+    "CRAYON AS"
+  ]
+}

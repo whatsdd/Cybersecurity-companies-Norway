@@ -1,0 +1,58 @@
+{
+  "id": "junglemap",
+  "name": "Junglemap",
+  "legal_name": "JUNGLEMAP AS",
+  "website": "https://www.junglemap.no/",
+  "category": "nordic",
+  "org_nr": "984590423",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.junglemap.no/",
+  "delivery_note": "The Norwegian company delivers its own awareness courses and runs the platform it sells; the group's Swedish parent does not deliver the Norwegian work.",
+  "specialty": "Security awareness house: short recurring courses on cyber security, privacy, NIS2 and secure coding, with phishing simulations.",
+  "capabilities": [
+    "awareness-training",
+    "security-training",
+    "privacy-gdpr",
+    "nis2-dora"
+  ],
+  "security_staff": 9,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
+  "founded": "2002-05-10",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.junglemap.no/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Publishes courses in cyber security, privacy and GDPR, the NIS2 directive, secure coding with OWASP, and phishing simulations on its platform"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/984590423",
+      "type": "registry",
+      "checked": "2026-09-22"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "In-house security staff: 9 or more. Guarded estimate by the list maintainer; not published by the company."
+    }
+  ],
+  "notes": "Awareness training is the whole business, so the Norwegian entity's registry headcount is usable as a guarded estimate. The brand belongs to the Swedish group Junglemap AB; this row is the Norwegian company that sells and supports it here, and it is grouped as nordic for that reason.",
+  "brreg_employees": 9,
+  "brreg_employees_as_of": "2026-07-15",
+  "former_names": [
+    "JUNGLEMAP AS",
+    "NKI JUNGLEMAP AS"
+  ]
+}
