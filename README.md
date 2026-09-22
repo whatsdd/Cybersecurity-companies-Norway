@@ -1,8 +1,8 @@
 # Cybersecurity and information security companies in Norway
 
 [![validate](https://github.com/whatsdd/Cybersecurity-companies-Norway/actions/workflows/validate.yml/badge.svg)](https://github.com/whatsdd/Cybersecurity-companies-Norway/actions/workflows/validate.yml)
-[![companies](https://img.shields.io/badge/companies-75-blue)](#with-a-physical-office-in-norway)
-[![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-24-green)](#with-a-physical-office-in-norway)
+[![companies](https://img.shields.io/badge/companies-78-blue)](#with-a-physical-office-in-norway)
+[![in-house%20staff%20counts](https://img.shields.io/badge/in--house%20staff%20counts-25-green)](#with-a-physical-office-in-norway)
 [![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-none%20yet-lightgrey)](#how-to-read-the-columns)
 [![last updated](https://img.shields.io/badge/last%20updated-2026-09-22-green)](#how-this-list-is-maintained)
 [![license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE)
@@ -26,7 +26,7 @@ response, cloud and OT security, identity and access, forensics, GRC, privacy an
 Two things make it useful rather than just long. First, every row says how many **in-house security
 staff** the company has, or that nobody has established it, because a lot of Norwegian security work is
 sold by companies that subcontract it to somebody else. Second, every row carries **capability tags**
-so a buyer can filter for what they actually need instead of reading 75 company blurbs.
+so a buyer can filter for what they actually need instead of reading 78 company blurbs.
 
 The list comes first and the reasoning follows: the ordering rules, the caveats and the AI disclosure
 are further down this page.
@@ -35,18 +35,18 @@ are further down this page.
 
 | | | 
 |---|---|
-| Companies listed | **75** |
-| In-house security staff counts known | **24** |
+| Companies listed | **78** |
+| In-house security staff counts known | **25** |
 | Of those, confirmed (published or attested first-hand) | **0** (0 published by the company, 0 attested) |
-| Labelled estimates, nobody standing behind them | **23** |
-| Staff count still unknown | **51** |
-| Delivering with their own staff | **68** (plus 1 mixed) |
+| Labelled estimates, nobody standing behind them | **24** |
+| Staff count still unknown | **53** |
+| Delivering with their own staff | **71** (plus 1 mixed) |
 | Sourced through a partner network | **4** |
-| With an office in Norway | **69** |
-| With a confirmed Norwegian company registration | **67** |
+| With an office in Norway | **72** |
+| With a confirmed Norwegian company registration | **70** |
 | Publishing their own headcount | **13** |
-| With any headcount figure (theirs or the registry's) | **58** |
-| Capability tags in use | **40** (439 tag links) |
+| With any headcount figure (theirs or the registry's) | **61** |
+| Capability tags in use | **43** (453 tag links) |
 | Last updated | **2026-09-22** |
 
 ## How to read the columns
@@ -109,6 +109,7 @@ are further down this page.
 | **Semaphore**<br><sub>Semaphore Consulting Partners AS · formerly SCIO AS</sub><br>[www.semaphore.no](https://www.semaphore.no) | **14+** <sub>estimated</sub> | 20 (site)<br><sub>registry: 14</sub> | Yes (Stabekk) | in-house | Boutique testing house: penetration testing, red teaming and security assessments.<br><sub>Penetration testing · Red teaming · Vulnerability assessment <sub>+3</sub></sub> | 989925970<br><sub>founded 2006</sub> | 2026-09-22 |
 | **Secure Practice**<br><sub>Secure Practice AS</sub><br>[securepractice.no](https://securepractice.no) | **14+** <sub>estimated</sub> | 14 (registry)<br><sub>registry</sub> | Yes (Trondheim) | in-house | Human risk and security culture: phishing simulation, awareness training and measuring.<br><sub>Awareness training · Security training · Risk management <sub>+2</sub></sub> | 919420197<br><sub>founded 2017</sub> | 2026-09-22 |
 | **Fencenordic**<br><sub>Fence AS · formerly Fence Drift AS</sub><br>[fence.no](https://fence.no) | **11+** <sub>estimated</sub> | 11 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Norwegian MDR provider: 24/7 monitoring, incident response and managed detection.<br><sub>SOC / MDR · Incident response · Penetration testing <sub>+5</sub></sub> | 934279220<br><sub>founded 2024</sub> | 2026-09-22 |
+| **O3C**<br><sub>O3 Cyber AS</sub><br>[www.o3c.no](https://www.o3c.no/) | **11+** <sub>estimated</sub> | 11 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Boutique consultancy for cloud, platform and AI security, working with Nordic enterprises and scale-ups.<br><sub>Cloud security · Container / Kubernetes security · Security architecture <sub>+5</sub></sub> | 929553160<br><sub>founded 2022</sub> | 2026-09-22 |
 | **EY Norge**<br><sub>Ernst & Young AS · formerly Ernst & Young Management Consulting AS</sub><br>[www.ey.com/no_no](https://www.ey.com/no_no) | **10+** <sub>estimated</sub> | 1,422 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Audit and advisory giant whose Norwegian cyber team covers testing, resilience and compliance.<br><sub>Penetration testing · Vulnerability assessment · Security audit <sub>+4</sub></sub> | 976389387<br><sub>founded 1996</sub> | 2026-09-22 |
 | **Shift Security**<br><sub>Shift Security AS</sub><br>[shiftsecurity.no](https://shiftsecurity.no) | **10+** <sub>estimated</sub> | 10 (registry)<br><sub>registry</sub> | Yes (Sætre) | in-house | Zero Trust and secure networking specialist: microsegmentation, SASE and managed security.<br><sub>Network security · Security architecture · Cloud security <sub>+2</sub></sub> | 933831922<br><sub>founded 2024</sub> | 2026-09-22 |
 | **Secure-NOK**<br><sub>SECURE-NOK AS</sub><br>[www.securenok.com](https://www.securenok.com) | **8+** <sub>estimated</sub> | 8 (registry)<br><sub>registry</sub> | Yes (Sandnes) | in-house | OT security monitoring for offshore and industrial environments.<br><sub>OT / ICS security · SOC / MDR · Incident response <sub>+2</sub></sub> | 924577002<br><sub>founded 2020</sub> | 2026-09-22 |
@@ -132,6 +133,7 @@ are further down this page.
 | **GlobalConnect Norge**<br><sub>Globalconnect AS · formerly Tekågel Invest 160 AS, Ventelo Bedrift AS and 2 more</sub><br>[www.globalconnect.no](https://www.globalconnect.no) | ?? | 444 (registry)<br><sub>registry</sub> | Yes (Fornebu) | in-house | Digital infrastructure provider selling network security, DDoS protection and managed security.<br><sub>Network security · SOC / MDR · Incident response <sub>+1</sub></sub> | 890164072<br><sub>founded 2006</sub> | 2026-09-22 |
 | **Twoday**<br><sub>Twoday AS · formerly Sirius IT AS, Visma Sirius AS and 1 more</sub><br>[www.twoday.no](https://www.twoday.no) | ?? | 416 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Nordic consultancy with security testing, cloud security and compliance advisory.<br><sub>Penetration testing · Cloud security · Compliance <sub>+2</sub></sub> | 990432368<br><sub>founded 2006</sub> | 2026-09-22 |
 | **Upheads**<br><sub>Upheads AS · formerly Netpower IKT AS, Netpower Consulting AS</sub><br>[upheads.no](https://upheads.no) | ?? | 400 (site)<br><sub>registry: 277</sub> | Yes (Sandnes) | in-house | Managed IT and security provider running its own SOC for Norwegian and Nordic customers.<br><sub>SOC / MDR · Incident response · Network security <sub>+4</sub></sub> | 980893936<br><sub>founded 1999</sub> | 2026-09-22 |
+| **AFRY**<br><sub>AFRY Norway AS · formerly WR Start UP 121 AS, ÅF Reinertsen AS and 1 more</sub><br>[afry.com/no-no](https://afry.com/no-no/) | ?? | 377 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Engineering and advisory group whose cyber security business area covers advice, design and operation for industry, energy, critical infrastructure and defence.<br><sub>Risk management · Compliance · Security architecture <sub>+1</sub></sub> | 915229719<br><sub>founded 2015</sub> | 2026-09-22 |
 | **CGI Norge**<br><sub>CGI Norge AS · formerly WM DATA AS, WM- DATA Consulting AS and 2 more</sub><br>[www.cgi.com/no](https://www.cgi.com/no) | ?? | 352 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | IT services group whose security unit covers monitoring, cloud security and OT.<br><sub>SOC / MDR · Cloud security · OT / ICS security <sub>+3</sub></sub> | 919562390<br><sub>founded 1977</sub> | 2026-09-22 |
 | **Computas**<br><sub>Computas AS · formerly AS Startskuddet 488, Computas Consulting AS and 1 more</sub><br>[computas.com](https://computas.com) | ?? | 325 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Public-sector technology consultancy with security, privacy and compliance advisory.<br><sub>Security audit · Compliance · Privacy / GDPR <sub>+2</sub></sub> | 986352325<br><sub>founded 2003</sub> | 2026-09-22 |
 | **Accelerate at Iver**<br><sub>IVER Accelerate Prepare AS · formerly Aztek Consulting AS, Aztek AS and 1 more</sub><br>[accelerate.iver.no](https://accelerate.iver.no) | ?? | 250 (site)<br><sub>registry: 24</sub> | Yes (Oslo) | in-house | Iver's Norwegian security and cloud unit, from Azure security to compliance and testing.<br><sub>Cloud security · SOC / MDR · Compliance <sub>+3</sub></sub> | 991319158<br><sub>founded 2007</sub> | 2026-09-22 |
@@ -141,6 +143,7 @@ are further down this page.
 | **Ikomm**<br><sub>Ikomm AS</sub><br>[www.ikomm.no](https://www.ikomm.no) | ?? | 168 (registry)<br><sub>registry</sub> | Yes (Lillehammer) | mixed | Innlandet IT and security house running a security operations centre for the public sector.<br><sub>SOC / MDR · Incident response · Cloud security <sub>+3</sub></sub> | 991335846<br><sub>founded 2007</sub> | 2026-09-22 |
 | **Conscia Norge**<br><sub>Conscia Norge AS · formerly Pundit Networks AS</sub><br>[conscia.com/no](https://conscia.com/no/) | ?? | 143 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Nordic infrastructure and cyber security house: network security, SOC and hybrid cloud.<br><sub>Network security · SOC / MDR · Incident response <sub>+3</sub></sub> | 998613353<br><sub>founded 2012</sub> | 2026-09-22 |
 | **DXC Technology Norge**<br><sub>DXC Technology Norge AS · formerly Policy Management Systems Norden AS, Policy Management Systems Corporation AS and 3 more</sub><br>[dxc.com/no/en](https://dxc.com/no/en) | ?? | 130 (registry)<br><sub>registry</sub> | Yes (Fyllingsdalen) | in-house | Global services provider with managed security services delivered from Norway.<br><sub>SOC / MDR · Incident response · Cloud security <sub>+2</sub></sub> | 958958455<br><sub>founded 1990</sub> | 2026-09-22 |
+| **Viljr**<br><sub>Viljr AS</sub><br>[viljr.no](https://viljr.no/) | ?? | 124 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Advisory house for security and preparedness, digital transformation and major project delivery, naming cyber security as one of the disciplines it leads.<br><sub>Risk management · Crisis management / preparedness</sub> | 936273580<br><sub>founded 2025</sub> | 2026-09-22 |
 | **Move**<br><sub>MOVE AS · formerly System Senteret AS, MOVE Systems AS</sub><br>[move.no](https://move.no) | ?? | 100 (registry)<br><sub>registry</sub> | Yes (Oslo) | in-house | Norwegian infrastructure consultancy with a practical, business-anchored security practice.<br><sub>Cloud security · Identity and access management · Network security <sub>+3</sub></sub> | 957597076<br><sub>founded 1990</sub> | 2026-09-22 |
 | **Capra Consulting**<br><sub>Capra Consulting AS · formerly Opendoor Technology AS, ODC AS</sub><br>[www.capraconsulting.no](https://www.capraconsulting.no) | ?? | 90 (site)<br><sub>registry: 92</sub> | Yes (Oslo) | in-house | Software consultancy whose security group does testing, cloud security and secure development.<br><sub>Penetration testing · Vulnerability assessment · Cloud security <sub>+3</sub></sub> | 988097039<br><sub>founded 2005</sub> | 2026-09-22 |
 | **Proactima**<br><sub>Proactima AS · formerly NEW Proactima AS</sub><br>[www.proactima.no](https://www.proactima.no) | ?? | 81 (registry)<br><sub>registry</sub> | Yes (Stavanger) | in-house | Risk and resilience consultancy working across security, crisis and NIS2 readiness.<br><sub>Risk management · Compliance · NIS2 / DORA readiness <sub>+3</sub></sub> | 915641938<br><sub>founded 2015</sub> | 2026-09-22 |
@@ -230,6 +233,8 @@ traced to today's legal entity. Examples currently in the data:
   - Listed as "Visma Consulting AS (now Twoday)". The registry rename history confirms SIRIUS IT AS → VISMA SIRIUS AS → VISMA CONSULTING AS → TWODAY AS.
 - **Upheads**: *NETPOWER IKT AS → NETPOWER CONSULTING AS → UPHEADS AS*
   - Acquired by Upheads in December 2022 and now part of Upheads AS (org.nr 980893936, Sandnes), a Norwegian IT and security provider. The pinned org.nr is Upheads (the acquirer), so its founding date and prior names are not Teknograd's. Listed as Teknograd in the pentest editions; Teknograd was acquired by Upheads in December 2022 and the Norwegian entity is Upheads AS.
+- **AFRY**: *WR START UP 121 AS → ÅF REINERTSEN AS → ÅF ENGINEERING AS → AFRY NORWAY AS*
+  - Advansia, the Norwegian consultancy known for security advisory work, now trades as part of AFRY and the Norwegian entity is AFRY NORWAY AS. Registry history on this entity runs WR START UP 121 AS, AF REINERTSEN AS, AF ENGINEERING AS. The row is partial: the group's published cyber security offering is the source for the capability tags, the Norwegian-language unit page could not be read, and the Norwegian team should be re-checked after around 50 of its people, including digital and security leadership, left in 2025 and 2026 to found Viljr.
 - **CGI Norge**: *WM DATA AS → WM- DATA CONSULTING AS → WM-DATA AS → LOGICA NORGE AS → CGI NORGE AS*
   - Registry history: WM DATA AS → WM-DATA AS → LOGICA NORGE AS → CGI NORGE AS.
 - **Computas**: *AS STARTSKUDDET 488 → COMPUTAS CONSULTING AS → COMPUTAS SOLUTIONS AS → COMPUTAS AS*

@@ -1,7 +1,7 @@
 {
   "generated": "2026-09-22",
   "last_verified": "2026-09-22",
-  "count": 75,
+  "count": 78,
   "license": "CC BY 4.0",
   "attribution": "Started in 2023 by Ahmad Abdur Rehman (https://ahmad.science/, https://www.linkedin.com/in/ahmadscience/) as a list of penetration testing companies in Norway. Continued as an open dataset covering cybersecurity and information security companies.",
   "source_repository": "https://github.com/whatsdd/Cybersecurity-companies-Norway",
@@ -1189,6 +1189,64 @@
           "note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
         }
       ]
+    },
+    {
+      "id": "o3c",
+      "name": "O3C",
+      "legal_name": "O3 CYBER AS",
+      "website": "https://www.o3c.no/",
+      "category": "norwegian",
+      "org_nr": "929553160",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://www.o3c.no/",
+      "delivery_note": "A boutique consultancy that describes advising, assessing and operating alongside its clients, which means its own consultants do the work.",
+      "specialty": "Boutique consultancy for cloud, platform and AI security, working with Nordic enterprises and scale-ups.",
+      "security_staff": 11,
+      "security_staff_basis": "estimate",
+      "security_staff_is_minimum": true,
+      "security_staff_scope": "whole-company",
+      "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "security_staff_note": "In-house security staff: 11 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
+      "capabilities": [
+        "cloud-security",
+        "container-security",
+        "security-architecture",
+        "ai-security",
+        "application-security",
+        "secure-development",
+        "security-audit",
+        "security-training"
+      ],
+      "founded": "2022-06-30",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://www.o3c.no/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Describes the practice as cloud, platform and AI security for Nordic enterprises and scale-ups, with platform security design, managed cloud security and work alongside client teams"
+        },
+        {
+          "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+          "type": "estimate",
+          "checked": "2026-09-22",
+          "note": "In-house security staff: 11 or more. Guarded estimate by the list maintainer; not published by the company."
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929553160",
+          "type": "registry",
+          "checked": "2026-09-22"
+        }
+      ],
+      "notes": "O3 CYBER AS is the operating company; O3C TOPCO AS (org.nr 938170894) is the holding entity.",
+      "brreg_employees": 11,
+      "brreg_employees_as_of": "2026-09-14"
     },
     {
       "id": "ey-norge",
@@ -2526,6 +2584,65 @@
       ]
     },
     {
+      "id": "afry",
+      "name": "AFRY",
+      "legal_name": "AFRY NORWAY AS",
+      "website": "https://afry.com/no-no/",
+      "category": "nordic",
+      "org_nr": "915229719",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://afry.com/en/services/operations-digital-solutions/cyber-security",
+      "delivery_note": "The cyber security business area is staffed by the group's own engineers and advisers, with a named business unit manager for the area.",
+      "specialty": "Engineering and advisory group whose cyber security business area covers advice, design and operation for industry, energy, critical infrastructure and defence.",
+      "capabilities": [
+        "risk-management",
+        "compliance",
+        "security-architecture",
+        "ot-ics-security"
+      ],
+      "verification": "partial",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://afry.com/en/services/operations-digital-solutions/cyber-security",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Cyber security service area with a named business unit manager"
+        },
+        {
+          "url": "https://afry.com/en/services/operations-digital-solutions/cyber-security/ot-cyber-security",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "OT cyber security as a published service: protecting production and reducing risk in industrial environments"
+        },
+        {
+          "url": "https://afry.com/en/newsroom/news/nordic-cyber-security-offering-industry-and-society",
+          "type": "news",
+          "checked": "2026-09-22",
+          "note": "March 2023: the cyber security business area brings together services from policy and governance through analysis, design, implementation, testing and operations, for industry, energy, critical infrastructure and defence in the Nordics"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915229719",
+          "type": "registry",
+          "checked": "2026-09-22"
+        }
+      ],
+      "notes": "Advansia, the Norwegian consultancy known for security advisory work, now trades as part of AFRY and the Norwegian entity is AFRY NORWAY AS. Registry history on this entity runs WR START UP 121 AS, AF REINERTSEN AS, AF ENGINEERING AS. The row is partial: the group's published cyber security offering is the source for the capability tags, the Norwegian-language unit page could not be read, and the Norwegian team should be re-checked after around 50 of its people, including digital and security leadership, left in 2025 and 2026 to found Viljr.",
+      "brreg_employees": 377,
+      "brreg_employees_as_of": "2026-09-14",
+      "founded": "2015-03-24",
+      "former_names": [
+        "WR START UP 121 AS",
+        "ÅF REINERTSEN AS",
+        "ÅF ENGINEERING AS"
+      ]
+    },
+    {
       "id": "cgi-norge",
       "name": "CGI Norge",
       "legal_name": "CGI NORGE AS",
@@ -2970,6 +3087,64 @@
         "CSC SOLUTIONS NORGE AS",
         "CSC NORGE AS"
       ]
+    },
+    {
+      "id": "viljr",
+      "name": "Viljr",
+      "legal_name": "VILJR AS",
+      "website": "https://viljr.no/",
+      "category": "norwegian",
+      "org_nr": "936273580",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "delivery": "in-house",
+      "delivery_source": "https://viljr.no/tjenester",
+      "delivery_note": "The company describes staffing engagements with its own advisers and specialists, assembled into a team on the client's side, rather than placing people from a partner network.",
+      "specialty": "Advisory house for security and preparedness, digital transformation and major project delivery, naming cyber security as one of the disciplines it leads.",
+      "capabilities": [
+        "risk-management",
+        "crisis-management"
+      ],
+      "founded": "2025-09-15",
+      "verification": "partial",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://viljr.no/tjenester",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Names the disciplines it leads as project management, security advisory, analysis, cyber security and digital innovation, with security and preparedness as a service line"
+        },
+        {
+          "url": "https://viljr.no/",
+          "type": "company-site",
+          "checked": "2026-09-22",
+          "note": "Lists security advisory and preparedness among its services, and defence, defence industry and total defence as sectors it works in"
+        },
+        {
+          "url": "https://www.bygg.no/blir-en-del-av-ledelsen-i-viljr/2916265",
+          "type": "news",
+          "checked": "2026-09-22",
+          "note": "April 2026: Carl-Axel Hagen joined the leadership to strengthen the security, preparedness and defence effort"
+        },
+        {
+          "url": "https://www.dn.no/bygg-og-anlegg/viljr/advansia/konsulenter/startet-konsulentutfordrer-hanket-inn-rundt-50-fra-forrige-arbeidsgiver/2-1-1936105",
+          "type": "news",
+          "checked": "2026-09-22",
+          "note": "February 2026: the four founders came from Advansia, now part of AFRY, and recruited around 50 people from the former employer"
+        },
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/936273580",
+          "type": "registry",
+          "checked": "2026-09-22"
+        }
+      ],
+      "notes": "Founded 2025-09-15 by four former Advansia leaders, including chief executive Rune Hjortdahl, previously director of digital at Advansia, and chaired by Christopher Klepsland, formerly head of Advansia and AFRY Norway. No security staff figure is published and none is recorded: the entity is registered as a building-technical consultancy (71.121) with work across construction, digitalisation and security, so its whole-payroll headcount is not a usable security figure and the column stays ??. The company also publishes a Trondheim office at Kongens gate 16; only the registered Oslo poststed is listed above, because the registry fields are refreshed from Enhetsregisteret.",
+      "brreg_employees": 124,
+      "brreg_employees_as_of": "2026-09-14"
     },
     {
       "id": "move",

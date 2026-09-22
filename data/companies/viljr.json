@@ -1,0 +1,58 @@
+{
+  "id": "viljr",
+  "name": "Viljr",
+  "legal_name": "VILJR AS",
+  "website": "https://viljr.no/",
+  "category": "norwegian",
+  "org_nr": "936273580",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://viljr.no/tjenester",
+  "delivery_note": "The company describes staffing engagements with its own advisers and specialists, assembled into a team on the client's side, rather than placing people from a partner network.",
+  "specialty": "Advisory house for security and preparedness, digital transformation and major project delivery, naming cyber security as one of the disciplines it leads.",
+  "capabilities": [
+    "risk-management",
+    "crisis-management"
+  ],
+  "founded": "2025-09-15",
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://viljr.no/tjenester",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Names the disciplines it leads as project management, security advisory, analysis, cyber security and digital innovation, with security and preparedness as a service line"
+    },
+    {
+      "url": "https://viljr.no/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Lists security advisory and preparedness among its services, and defence, defence industry and total defence as sectors it works in"
+    },
+    {
+      "url": "https://www.bygg.no/blir-en-del-av-ledelsen-i-viljr/2916265",
+      "type": "news",
+      "checked": "2026-09-22",
+      "note": "April 2026: Carl-Axel Hagen joined the leadership to strengthen the security, preparedness and defence effort"
+    },
+    {
+      "url": "https://www.dn.no/bygg-og-anlegg/viljr/advansia/konsulenter/startet-konsulentutfordrer-hanket-inn-rundt-50-fra-forrige-arbeidsgiver/2-1-1936105",
+      "type": "news",
+      "checked": "2026-09-22",
+      "note": "February 2026: the four founders came from Advansia, now part of AFRY, and recruited around 50 people from the former employer"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/936273580",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "notes": "Founded 2025-09-15 by four former Advansia leaders, including chief executive Rune Hjortdahl, previously director of digital at Advansia, and chaired by Christopher Klepsland, formerly head of Advansia and AFRY Norway. No security staff figure is published and none is recorded: the entity is registered as a building-technical consultancy (71.121) with work across construction, digitalisation and security, so its whole-payroll headcount is not a usable security figure and the column stays ??. The company also publishes a Trondheim office at Kongens gate 16; only the registered Oslo poststed is listed above, because the registry fields are refreshed from Enhetsregisteret.",
+  "brreg_employees": 124,
+  "brreg_employees_as_of": "2026-09-14"
+}

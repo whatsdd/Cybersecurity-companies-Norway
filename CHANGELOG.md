@@ -10,7 +10,7 @@ The scope widens from penetration testing to cybersecurity and information secur
 column changes from "how many pentesters" to "how many security staff, and has anyone actually
 confirmed it".
 
-**75 companies**, 69 with a Norwegian office, 67 with a confirmed Norwegian registration. The pentest
+**78 companies**, 72 with a Norwegian office, 70 with a confirmed Norwegian registration. The pentest
 edition had 54.
 
 ### Added
@@ -34,8 +34,8 @@ edition had 54.
   identical on a services page, and one of them cannot answer the phone at 03:00. A delivery claim
   needs its own source, and the weaker claims need a note explaining how they were established.
 - **Capability tags and a speciality line.** Every row now carries the tags the company itself
-  publishes, from a vocabulary of 45 capabilities spanning offensive work, defensive operations, cloud
-  and industrial security, and governance. **40 tags are in use** across the list. The speciality line
+  publishes, from a vocabulary of 47 capabilities spanning offensive work, defensive operations, cloud
+  and industrial security, and governance. **43 tags are in use** across the list. The speciality line
   is one factual sentence, and the validator warns on marketing language.
 - **A removal policy.** Any company can ask to be removed, no reason required, through a
   [removal form](.github/ISSUE_TEMPLATE/remove-company.yml). The row is deleted from the dataset and
@@ -47,6 +47,13 @@ edition had 54.
   Proactima, Intility, Deloitte, Bouvet, Computas, Advania, Kyndryl, DXC, Devoteam, GlobalConnect,
   Miles, Forvis Mazars, Easywave, iTeam Braathe, Racom, SPADE Consulting, Norconsult Digital, Arctic
   Wolf and NCC Group.
+- **Three more rows arrived from readers after the first publication**: O3C (O3 Cyber AS), reported as a
+  local company missing from the list, and AFRY and Viljr, both reported from the Advansia lineage.
+  AFRY carries the Norwegian entity behind Advansia, and Viljr is the advisory house four former
+  Advansia leaders founded in September 2025, which by February 2026 had recruited around 50 people from
+  their former employer. Viljr names cyber security among the disciplines it leads, alongside security
+  advisory, preparedness and project delivery, so it is listed on that published claim; its row is
+  `partial` because the cyber practice is one line rather than a service list.
 
 ### Changed
 
@@ -64,6 +71,10 @@ edition had 54.
   showed general IT or product work and no security service, they were dropped.
 - **`services` became `capabilities`, and `security_testers` became `security_staff`**, with the
   existing four bases kept and given clearer meanings.
+- **Two capability tags were added on demand**: `ai-security`, after O3C's published practice turned out
+  to cover AI security with no tag to describe it, and `crisis-management`, because preparedness
+  (`beredskap`) is a distinct service line in the Norwegian market and tagging it as incident response
+  would have been wrong.
 - **The ordering now sorts on how well a figure is established**: confirmed counts first, then labelled
   estimates, then rows where nothing was found, and by size within each group.
 - **Company identities were cleared against the registry**, which fixed several rows: Knowit's security
@@ -73,7 +84,7 @@ edition had 54.
 
 ### Findings worth recording
 
-- **Still nobody publishes a count of their security staff.** Thirteen of 75 publish a whole-company
+- **Still nobody publishes a count of their security staff.** Thirteen of 78 publish a whole-company
   headcount, and not one publishes a security staff figure: every number in that column is either a
   guarded estimate or a crowdsourced researcher pool. The column that motivated the dataset is still
   the emptiest one, and the list says so instead of guessing.

@@ -1,0 +1,59 @@
+{
+  "id": "afry",
+  "name": "AFRY",
+  "legal_name": "AFRY NORWAY AS",
+  "website": "https://afry.com/no-no/",
+  "category": "nordic",
+  "org_nr": "915229719",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://afry.com/en/services/operations-digital-solutions/cyber-security",
+  "delivery_note": "The cyber security business area is staffed by the group's own engineers and advisers, with a named business unit manager for the area.",
+  "specialty": "Engineering and advisory group whose cyber security business area covers advice, design and operation for industry, energy, critical infrastructure and defence.",
+  "capabilities": [
+    "risk-management",
+    "compliance",
+    "security-architecture",
+    "ot-ics-security"
+  ],
+  "verification": "partial",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://afry.com/en/services/operations-digital-solutions/cyber-security",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Cyber security service area with a named business unit manager"
+    },
+    {
+      "url": "https://afry.com/en/services/operations-digital-solutions/cyber-security/ot-cyber-security",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "OT cyber security as a published service: protecting production and reducing risk in industrial environments"
+    },
+    {
+      "url": "https://afry.com/en/newsroom/news/nordic-cyber-security-offering-industry-and-society",
+      "type": "news",
+      "checked": "2026-09-22",
+      "note": "March 2023: the cyber security business area brings together services from policy and governance through analysis, design, implementation, testing and operations, for industry, energy, critical infrastructure and defence in the Nordics"
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/915229719",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "notes": "Advansia, the Norwegian consultancy known for security advisory work, now trades as part of AFRY and the Norwegian entity is AFRY NORWAY AS. Registry history on this entity runs WR START UP 121 AS, AF REINERTSEN AS, AF ENGINEERING AS. The row is partial: the group's published cyber security offering is the source for the capability tags, the Norwegian-language unit page could not be read, and the Norwegian team should be re-checked after around 50 of its people, including digital and security leadership, left in 2025 and 2026 to found Viljr.",
+  "brreg_employees": 377,
+  "brreg_employees_as_of": "2026-09-14",
+  "founded": "2015-03-24",
+  "former_names": [
+    "WR START UP 121 AS",
+    "ÅF REINERTSEN AS",
+    "ÅF ENGINEERING AS"
+  ]
+}

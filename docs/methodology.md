@@ -181,12 +181,13 @@ a surprise after the contract is signed.
 - **`capabilities`** are the tags the company itself publishes: penetration testing, red teaming,
   purple teaming, social engineering, vulnerability assessment and management, automated pentesting,
   attack surface management, bug bounty and crowdsourced testing, physical security, crypto audits,
-  application, API, mobile and cloud security, secure development and DevSecOps, code review, security
-  architecture, SOC/MDR, incident response, threat intelligence and hunting, forensics, malware
-  analysis, endpoint, network and email security, identity and access management, PKI, data protection,
-  backup and recovery, OT/ICS, IoT and container security, security audit, compliance, risk management,
-  privacy/GDPR, NIS2/DORA readiness, virtual CISO, security and awareness training, and tabletop
-  exercises.
+  AI security, application, API, mobile and cloud security, secure development and DevSecOps, code
+  review, security architecture, SOC/MDR, incident response, crisis management and preparedness,
+  threat intelligence and hunting, forensics,
+  malware analysis, endpoint, network and email security, identity and access management, PKI, data
+  protection, backup and recovery, OT/ICS, IoT and container security, security audit, compliance, risk
+  management, privacy/GDPR, NIS2/DORA readiness, virtual CISO, security and awareness training, and
+  tabletop exercises.
 
 Only tags the company publishes are attached. A row with no established capability list keeps its
 speciality and an empty tag list rather than a plausible-looking guess.

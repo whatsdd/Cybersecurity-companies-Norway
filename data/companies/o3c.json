@@ -1,0 +1,58 @@
+{
+  "id": "o3c",
+  "name": "O3C",
+  "legal_name": "O3 CYBER AS",
+  "website": "https://www.o3c.no/",
+  "category": "norwegian",
+  "org_nr": "929553160",
+  "office_in_norway": true,
+  "office_cities": [
+    "Oslo"
+  ],
+  "delivery": "in-house",
+  "delivery_source": "https://www.o3c.no/",
+  "delivery_note": "A boutique consultancy that describes advising, assessing and operating alongside its clients, which means its own consultants do the work.",
+  "specialty": "Boutique consultancy for cloud, platform and AI security, working with Nordic enterprises and scale-ups.",
+  "security_staff": 11,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "whole-company",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "In-house security staff: 11 or more. Guarded estimate by the list maintainer, not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work.",
+  "capabilities": [
+    "cloud-security",
+    "container-security",
+    "security-architecture",
+    "ai-security",
+    "application-security",
+    "secure-development",
+    "security-audit",
+    "security-training"
+  ],
+  "founded": "2022-06-30",
+  "verification": "verified",
+  "last_verified": "2026-09-22",
+  "verified_by": "@whatsdd",
+  "sources": [
+    {
+      "url": "https://www.o3c.no/",
+      "type": "company-site",
+      "checked": "2026-09-22",
+      "note": "Describes the practice as cloud, platform and AI security for Nordic enterprises and scale-ups, with platform security design, managed cloud security and work alongside client teams"
+    },
+    {
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
+      "checked": "2026-09-22",
+      "note": "In-house security staff: 11 or more. Guarded estimate by the list maintainer; not published by the company."
+    },
+    {
+      "url": "https://data.brreg.no/enhetsregisteret/api/enheter/929553160",
+      "type": "registry",
+      "checked": "2026-09-22"
+    }
+  ],
+  "notes": "O3 CYBER AS is the operating company; O3C TOPCO AS (org.nr 938170894) is the holding entity.",
+  "brreg_employees": 11,
+  "brreg_employees_as_of": "2026-09-14"
+}
