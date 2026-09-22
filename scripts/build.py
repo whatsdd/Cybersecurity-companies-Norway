@@ -660,6 +660,14 @@ def main() -> int:
         "REPO": REPO,
         "SITE_URL": SITE_URL,
     }
+    # A badge that reads "confirmed-0" looks broken rather than honest, so it is
+    # only drawn when there is something behind it.
+    counts["CONFIRMED_BADGE"] = (
+        "[![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-"
+        f"{counts['CONFIRMED_STAFF']}-green)](#how-to-read-the-columns)"
+        if counts["CONFIRMED_STAFF"]
+        else "[![confirmed](https://img.shields.io/badge/confirmed%20by%20the%20company%20or%20a%20named%20person-none%20yet-lightgrey)](#how-to-read-the-columns)"
+    )
 
     # ---- README -----------------------------------------------------------
     readme_template = (TEMPLATE_DIR / "README.md.tmpl").read_text(encoding="utf-8")

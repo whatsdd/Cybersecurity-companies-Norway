@@ -9,10 +9,12 @@
   "office_cities": [
     "Oslo"
   ],
-  "security_staff": 4,
-  "security_staff_basis": "attestation",
-  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/CREDITS.md",
-  "security_staff_note": "In-house security staff: 4. Attested first-hand by the list maintainer, who works at Experis.",
+  "security_staff": 40,
+  "security_staff_basis": "estimate",
+  "security_staff_is_minimum": true,
+  "security_staff_scope": "security-only",
+  "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+  "security_staff_note": "In-house security staff: 40 or more, across the consultancy's security disciplines. Guarded estimate by the list maintainer, who works at Experis, and not published by the company. It supersedes the narrower first-hand count of four penetration testers carried by the pentest editions.",
   "employees_total": 700,
   "employees_source": "https://www.experis.no",
   "employees_note": "stated as \"more than 700 consultants and partners\"",
@@ -35,7 +37,7 @@
     "ELAN COMPUTING AS",
     "ELAN IT RESOURCE AS"
   ],
-  "notes": "Registry history: ELAN COMPUTING AS -> ELAN IT RESOURCE AS -> EXPERIS AS. The in-house security staff figure of 4 is attested by the maintainer, who works at Experis, rather than published on the company site.",
+  "notes": "Registry history: ELAN COMPUTING AS -> ELAN IT RESOURCE AS -> EXPERIS AS. The in-house security staff figure is a guarded estimate by the maintainer, who works at Experis: 40 or more across the security disciplines, which supersedes the four penetration testers counted first-hand in the pentest editions. The company publishes no security staff figure.",
   "verification": "verified",
   "last_verified": "2026-09-22",
   "verified_by": "@whatsdd",
@@ -63,10 +65,10 @@
       "checked": "2026-09-22"
     },
     {
-      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/CREDITS.md",
-      "type": "attestation",
+      "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "type": "estimate",
       "checked": "2026-09-22",
-      "note": "In-house security staff: 4. Attested first-hand by the list maintainer, who works at Experis."
+      "note": "In-house security staff: 40 or more. Guarded estimate by the list maintainer, who works at Experis; not published by the company."
     }
   ]
 }

@@ -17,78 +17,6 @@
   ],
   "companies": [
     {
-      "id": "experis",
-      "name": "Experis",
-      "legal_name": "EXPERIS AS",
-      "website": "https://www.experis.no",
-      "category": "norwegian",
-      "org_nr": "982683955",
-      "office_in_norway": true,
-      "office_cities": [
-        "Oslo"
-      ],
-      "security_staff": 4,
-      "security_staff_basis": "attestation",
-      "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/CREDITS.md",
-      "security_staff_note": "In-house security staff: 4. Attested first-hand by the list maintainer, who works at Experis.",
-      "employees_total": 700,
-      "employees_source": "https://www.experis.no",
-      "employees_note": "stated as \"more than 700 consultants and partners\"",
-      "employees_as_of": "2026-09-22",
-      "brreg_employees": 402,
-      "brreg_employees_as_of": "2026-09-14",
-      "delivery": "in-house",
-      "delivery_source": "https://www.experis.no",
-      "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
-      "specialty": "IT consultancy whose security unit covers testing, training and ISO 27001 work.",
-      "capabilities": [
-        "penetration-testing",
-        "security-training",
-        "compliance",
-        "risk-management",
-        "identity-access-management"
-      ],
-      "founded": "2000-11-02",
-      "former_names": [
-        "ELAN COMPUTING AS",
-        "ELAN IT RESOURCE AS"
-      ],
-      "notes": "Registry history: ELAN COMPUTING AS -> ELAN IT RESOURCE AS -> EXPERIS AS. The in-house security staff figure of 4 is attested by the maintainer, who works at Experis, rather than published on the company site.",
-      "verification": "verified",
-      "last_verified": "2026-09-22",
-      "verified_by": "@whatsdd",
-      "sources": [
-        {
-          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/982683955",
-          "type": "registry",
-          "checked": "2026-09-22"
-        },
-        {
-          "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
-          "type": "seed-list",
-          "checked": "2026-09-22",
-          "note": "2025 edition of the list this directory is based on"
-        },
-        {
-          "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
-          "type": "seed-list",
-          "checked": "2026-09-22",
-          "note": "original 2023 edition"
-        },
-        {
-          "url": "https://www.experis.no",
-          "type": "company-site",
-          "checked": "2026-09-22"
-        },
-        {
-          "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/CREDITS.md",
-          "type": "attestation",
-          "checked": "2026-09-22",
-          "note": "In-house security staff: 4. Attested first-hand by the list maintainer, who works at Experis."
-        }
-      ]
-    },
-    {
       "id": "mnemonic",
       "name": "Mnemonic",
       "legal_name": "MNEMONIC AS",
@@ -644,6 +572,80 @@
           "type": "estimate",
           "checked": "2026-09-22",
           "note": "Guarded estimate by the list maintainer (@whatsdd) and not published by the company: the headcount this entity filed with Enhetsregisteret, which is a security-only business, so the whole payroll is security work. It is the entity's headcount rather than a measured split, which is why it is an estimate and a floor."
+        }
+      ]
+    },
+    {
+      "id": "experis",
+      "name": "Experis",
+      "legal_name": "EXPERIS AS",
+      "website": "https://www.experis.no",
+      "category": "norwegian",
+      "org_nr": "982683955",
+      "office_in_norway": true,
+      "office_cities": [
+        "Oslo"
+      ],
+      "security_staff": 40,
+      "security_staff_basis": "estimate",
+      "security_staff_is_minimum": true,
+      "security_staff_scope": "security-only",
+      "security_staff_source": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+      "security_staff_note": "In-house security staff: 40 or more, across the consultancy's security disciplines. Guarded estimate by the list maintainer, who works at Experis, and not published by the company. It supersedes the narrower first-hand count of four penetration testers carried by the pentest editions.",
+      "employees_total": 700,
+      "employees_source": "https://www.experis.no",
+      "employees_note": "stated as \"more than 700 consultants and partners\"",
+      "employees_as_of": "2026-09-22",
+      "brreg_employees": 402,
+      "brreg_employees_as_of": "2026-09-14",
+      "delivery": "in-house",
+      "delivery_source": "https://www.experis.no",
+      "delivery_note": "Delivery model recorded from the company's own description of how it staffs the work.",
+      "specialty": "IT consultancy whose security unit covers testing, training and ISO 27001 work.",
+      "capabilities": [
+        "penetration-testing",
+        "security-training",
+        "compliance",
+        "risk-management",
+        "identity-access-management"
+      ],
+      "founded": "2000-11-02",
+      "former_names": [
+        "ELAN COMPUTING AS",
+        "ELAN IT RESOURCE AS"
+      ],
+      "notes": "Registry history: ELAN COMPUTING AS -> ELAN IT RESOURCE AS -> EXPERIS AS. The in-house security staff figure is a guarded estimate by the maintainer, who works at Experis: 40 or more across the security disciplines, which supersedes the four penetration testers counted first-hand in the pentest editions. The company publishes no security staff figure.",
+      "verification": "verified",
+      "last_verified": "2026-09-22",
+      "verified_by": "@whatsdd",
+      "sources": [
+        {
+          "url": "https://data.brreg.no/enhetsregisteret/api/enheter/982683955",
+          "type": "registry",
+          "checked": "2026-09-22"
+        },
+        {
+          "url": "https://ahmad.science/2025/05/06/50-selskaper-som-tilbyr-sikkerhetstesting-pentest-i-norge-2025-utgaven/",
+          "type": "seed-list",
+          "checked": "2026-09-22",
+          "note": "2025 edition of the list this directory is based on"
+        },
+        {
+          "url": "https://ahmad.science/2023/02/24/33-pentest-firma-i-norge-sikkerhetstesting-inntrengingstesting/",
+          "type": "seed-list",
+          "checked": "2026-09-22",
+          "note": "original 2023 edition"
+        },
+        {
+          "url": "https://www.experis.no",
+          "type": "company-site",
+          "checked": "2026-09-22"
+        },
+        {
+          "url": "https://github.com/whatsdd/Cybersecurity-companies-Norway/blob/main/docs/methodology.md#guarded-estimates",
+          "type": "estimate",
+          "checked": "2026-09-22",
+          "note": "In-house security staff: 40 or more. Guarded estimate by the list maintainer, who works at Experis; not published by the company."
         }
       ]
     },

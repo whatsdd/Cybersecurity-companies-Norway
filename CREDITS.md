@@ -23,13 +23,17 @@ kept apart on purpose:
 
 - **Attestations.** A figure vouched for **first-hand** by somebody who works at the company or has run
   the work themselves. Rows like this carry `security_staff_basis: attestation`, name the person in the
-  row, and point at this file or a public statement. Exactly one such figure is in the current data:
-  the four security staff at Experis, attested by the author, who works there.
+  row, and point at this file or a public statement. No row currently carries one: the pentest
+  editions attested four penetration testers at Experis, and that figure has been superseded by the
+  broader estimate below.
 - **Guarded estimates.** Figures the maintainer **estimated from market knowledge and the registry
-  record**, with no company statement and no first-hand count behind them. Rows like this carry
+  record**, with no company statement behind them. Rows like this carry
   `security_staff_basis: estimate`, show an `estimated` label everywhere the number appears, and are
-  documented in [`docs/methodology.md`](docs/methodology.md#guarded-estimates). They are only used where
+  documented in [`docs/methodology.md`](docs/methodology.md#guarded-estimates). Most are only used where
   the registered entity is a security-only business, so the registry headcount is a usable floor.
+  Experis is the one exception, and it is the maintainer's own employer: the estimate there is 40 or
+  more security staff across the consultancy's security disciplines, which is broader than the four
+  penetration testers attested first-hand in the pentest editions.
 
 Estimates are the weakest basis in the dataset. Any company statement, named attestation or correction
 with a source replaces one, and an issue is enough to overturn it.

@@ -20,8 +20,8 @@ edition had 54.
   it is the number that answers whether a company can do the work itself.
 - **A confirmed / estimated distinction made explicit.** "Confirmed" now means exactly two things: the
   company published the figure, or a named person vouched for it first-hand. Of the 24 rows with a
-  figure, **1 is confirmed** (the Experis attestation from the pentest edition), **22 are guarded
-  estimates**, and **1 is a crowdsourced researcher pool**. The remaining **51 rows show `??`**.
+  figure, **23 are guarded estimates** and **1 is a crowdsourced researcher pool**; no row currently
+  carries a first-hand attestation, and the remaining **51 rows show `??`**.
 - **Guarded estimates, and the rule that keeps them honest.** Where a company is a security-only
   business, the headcount its legal entity filed with Enhetsregisteret is recorded as an *estimate* and
   a *floor*, labelled `estimated` everywhere, with a source whose note names the maintainer and says
@@ -74,15 +74,24 @@ edition had 54.
 ### Findings worth recording
 
 - **Still nobody publishes a count of their security staff.** Thirteen of 75 publish a whole-company
-  headcount, and exactly one row in the dataset has a confirmed security staff figure, which is an
-  attestation rather than a publication. The column that motivated the dataset is still the emptiest
-  one, and the list says so instead of guessing.
+  headcount, and not one publishes a security staff figure: every number in that column is either a
+  guarded estimate or a crowdsourced researcher pool. The column that motivated the dataset is still
+  the emptiest one, and the list says so instead of guessing.
 - **Resale is visible once you look for it.** Four rows are partner-sourced and one is mixed, and those
   are the ones where the delivery model was stated or self-evident. The number is a floor rather than a
   measurement: most companies simply do not say who does the work.
 - **The registry headcount is a good floor for a pure-play security company and useless for anyone
   else.** That is what made the guarded estimate rule possible, and it is why the rule stops at
   security-only businesses.
+
+### Corrected
+
+- **Experis: 4 attested pentesters became 40+ estimated security staff.** The pentest editions counted
+  four penetration testers there, attested first-hand by the maintainer who works at the company. The
+  wider edition is about all in-house security staff, and the maintainer's estimate of that figure is
+  40 or more across the consultancy's security disciplines. It is recorded as a guarded estimate rather
+  than an attestation, because a broader number is a judgement about a whole unit rather than a count
+  of named testers, and it is labelled `estimated` everywhere.
 
 ### Notes
 
