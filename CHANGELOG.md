@@ -52,7 +52,7 @@ edition had 54.
   Norwegian entity behind Advansia and Viljr is the advisory house four former Advansia leaders founded
   in September 2025, which by February 2026 had recruited around 50 people from their former employer;
   and then Gritera Security, eProvider, blinQ, Storm IT Sikkerhet, Devtec Norway, Junglemap, Bsure,
-  IndyKite and SoftwareOne from a reader's list of 41 names. Nine of those twelve carry a guarded
+  IndyKite and SoftwareOne from a reader's list of 42 names. Nine of those twelve carry a guarded
   estimate; Gritera (31), Junglemap (9), Bsure (13) and IndyKite (9) qualify because the registered
   entity is a security-only business.
 
@@ -98,12 +98,13 @@ edition had 54.
 
 ### Reader submissions checked and not listed
 
-A reader sent 41 company names to check. Each was looked up in Enhetsregisteret and, where a site
-exists, read for a published cybersecurity offering. Sixteen were already in the directory under their
-current names or a predecessor's, and those rows were left alone rather than duplicated: Sicra, O3
-Cyber, Knowit Cybersecurity & Law, Telenor Cyberdefence, DNV Cyber, Atea, Promon, Secure Practice,
-Secure-NOK, NORMA Cyber, Konfitech, Easywave, Xlent Cyber Security, Shift Security, FM Cybersecurity.
-The rest were checked and not listed, for one of these reasons:
+A reader sent a list of 42 company names to check (41 of them companies and one a sector CERT). Each
+was looked up in Enhetsregisteret and, where a site exists, read for a published cybersecurity
+offering. Fifteen were already in the directory under their current names or a predecessor's, and those
+rows were left alone rather than duplicated: Sicra, O3 Cyber, Knowit Cybersecurity & Law, Telenor
+Cyberdefence, DNV Cyber, Atea, Promon, Secure Practice, Secure-NOK, NORMA Cyber, Konfitech, Easywave,
+Xlent Cyber Security, Shift Security and FM Cybersecurity. Nine were added, as recorded above. The
+remaining eighteen were checked and not listed, for one of these reasons:
 
 - **The same company under another name.** Watchcom Security Group is the business Telenor Cyberdefence
   was built from, and BDO Cybersecurity has no entity at all: BDO AS is listed, and Defendable was spun
